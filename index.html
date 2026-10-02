@@ -5,162 +5,213 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Teste dos Dons Espirituais · IPI O Caminho</title>
 <meta name="description" content="Questionário dos Dons Espirituais (Christian A. Schwarz) — O Caminho do Servo, IPI O Caminho, Arapongas.">
-<meta name="theme-color" content="#173627">
-<link rel="icon" href="logo-oficial-arco.png">
+<meta name="theme-color" content="#143024">
+<link rel="icon" href="favicon.ico" sizes="any">
+<link rel="icon" type="image/png" href="icone-192.png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<meta property="og:title" content="Teste dos Dons Espirituais — IPI O Caminho">
+<meta property="og:description" content="180 afirmações, 30 dons bíblicos. Descubra seus Dons Manifestos e Latentes.">
+<meta property="og:image" content="logo-horizontal.png">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
   :root{
-    --verde:#173627; --verde-2:#1f4a35; --verde-claro:#2f6b4c; --laranja:#e06d10; --laranja-2:#f59e0b;
-    --fundo:#f6f7f5; --cartao:#ffffff; --texto:#15201a; --suave:#5b6b61; --linha:#e3e8e3; --sombra:0 1px 2px rgba(10,30,20,.06),0 8px 24px rgba(10,30,20,.07);
+    --verde:#143024; --verde-2:#1d4733; --verde-3:#2f6b4c; --verde-luz:#8fd2ae;
+    --laranja:#e06d10; --ouro:#f0a93b;
+    --fundo:#f5f6f3; --cartao:#fff; --texto:#15201a; --suave:#5f7066; --linha:#e5eae5;
+    --sombra:0 1px 2px rgba(10,30,20,.05), 0 12px 32px rgba(10,30,20,.09);
+    --sombra-f:0 18px 50px rgba(10,30,20,.16);
+    --serif:"Fraunces",Georgia,"Times New Roman",serif;
   }
-  @media (prefers-color-scheme: dark){
-    :root{ --fundo:#0e1512; --cartao:#15201b; --texto:#eaf1ec; --suave:#9fb3a7; --linha:#223029; --sombra:0 1px 2px rgba(0,0,0,.4),0 10px 30px rgba(0,0,0,.35); }
+  @media (prefers-color-scheme:dark){
+    :root{--fundo:#0d1411;--cartao:#141d18;--texto:#e9f1eb;--suave:#9db0a4;--linha:#22302a;
+          --sombra:0 1px 2px rgba(0,0,0,.4),0 12px 32px rgba(0,0,0,.35);--sombra-f:0 18px 50px rgba(0,0,0,.5)}
   }
-  *{box-sizing:border-box}
-  html,body{margin:0;padding:0}
-  body{background:var(--fundo);color:var(--texto);font:16px/1.55 ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;-webkit-font-smoothing:antialiased}
-  .marca{font-family:Georgia,"Times New Roman",serif;letter-spacing:.06em}
+  *{box-sizing:border-box} html,body{margin:0;padding:0}
+  body{background:var(--fundo);color:var(--texto);font:16px/1.6 "Inter",ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;-webkit-font-smoothing:antialiased}
+  h1,h2,h3,.serif{font-family:var(--serif);font-weight:700;letter-spacing:-.01em}
   a{color:var(--laranja)}
-  header{position:sticky;top:0;z-index:40;background:var(--verde);color:#fff;border-bottom:3px solid var(--laranja)}
-  .topo{max-width:900px;margin:0 auto;padding:10px 16px;display:flex;align-items:center;gap:12px}
-  .selo{background:#fff;border-radius:8px;padding:3px;height:44px;width:38px;display:flex;align-items:center;justify-content:center;flex:0 0 auto}
+  /* ---------- cabeçalho ---------- */
+  header{position:sticky;top:0;z-index:40;background:rgba(20,48,36,.96);backdrop-filter:saturate(1.3) blur(8px);color:#fff;border-bottom:3px solid var(--laranja)}
+  .topo{max-width:980px;margin:0 auto;padding:9px 16px;display:flex;align-items:center;gap:12px}
+  .selo{background:#fff;border-radius:9px;padding:3px;height:42px;width:36px;display:flex;align-items:center;justify-content:center;flex:0 0 auto;box-shadow:0 2px 8px rgba(0,0,0,.25)}
   .selo img{height:100%;width:auto;display:block}
-  .topo h1{font-size:14px;margin:0;color:var(--laranja-2);font-weight:700}
-  .topo p{margin:1px 0 0;font-size:11.5px;color:#cfe3d6}
-  .etapa{margin-left:auto;font-size:11.5px;background:rgba(0,0,0,.28);border:1px solid rgba(255,255,255,.18);padding:5px 11px;border-radius:999px;white-space:nowrap}
-  main{max-width:900px;margin:0 auto;padding:18px 16px 56px}
-  .cartao{background:var(--cartao);border:1px solid var(--linha);border-radius:18px;box-shadow:var(--sombra);padding:22px}
-  @media (min-width:640px){ .cartao{padding:30px} }
-  h2{font-size:26px;line-height:1.2;margin:0 0 10px}
-  @media (min-width:640px){ h2{font-size:32px} }
-  .sub{color:var(--suave);margin:0 0 18px}
-  .grade{display:grid;gap:12px}
-  @media (min-width:640px){ .g3{grid-template-columns:repeat(3,1fr)} .g2{grid-template-columns:repeat(2,1fr)} }
-  .num{background:var(--fundo);border:1px solid var(--linha);border-radius:14px;padding:14px;text-align:center}
-  .num b{display:block;font-size:22px;color:var(--verde-claro)}
-  .num span{font-size:12px;color:var(--suave)}
-  label{display:block;font-size:13px;font-weight:600;margin:0 0 6px}
-  input,select{width:100%;padding:12px 14px;border:1px solid var(--linha);border-radius:12px;background:var(--cartao);color:var(--texto);font-size:16px}
-  input:focus,select:focus,button:focus-visible{outline:3px solid #9ad0b4;outline-offset:1px}
-  .btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;width:100%;padding:16px 20px;border:0;border-radius:14px;background:var(--verde);color:#fff;font-size:17px;font-weight:700;cursor:pointer;transition:transform .06s ease,filter .15s}
-  .btn:hover{filter:brightness(1.08)} .btn:active{transform:translateY(1px)}
-  .btn.sec{background:transparent;color:var(--texto);border:1px solid var(--linha);font-weight:600;font-size:15px;padding:12px 16px;width:auto}
-  .btn.laranja{background:var(--laranja)}
-  .barra{height:7px;background:var(--linha);border-radius:999px;overflow:hidden}
-  .barra i{display:block;height:100%;background:linear-gradient(90deg,var(--verde-claro),var(--laranja));width:0;transition:width .25s ease}
-  .ctx{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin-bottom:6px}
-  .tag{font-size:12px;font-weight:700;color:var(--verde-claro);background:rgba(47,107,76,.1);padding:4px 10px;border-radius:999px}
-  .enunciado{font-size:15px;color:var(--suave);margin:14px 0 4px}
-  .afirmacao{font-size:21px;line-height:1.45;font-weight:600;margin:0 0 20px;min-height:84px}
-  @media (min-width:640px){ .afirmacao{font-size:24px} }
+  .topo h1{font-size:15px;margin:0;color:var(--ouro);letter-spacing:.08em}
+  .topo p{margin:0;font-size:11.5px;color:#c7ddcf;font-family:"Inter",sans-serif}
+  .etapa{margin-left:auto;font-size:11.5px;background:rgba(0,0,0,.3);border:1px solid rgba(255,255,255,.16);padding:5px 12px;border-radius:999px;white-space:nowrap}
+  /* ---------- hero ---------- */
+  .hero{background:
+      radial-gradient(900px 420px at 50% -10%, rgba(143,210,174,.22), transparent 60%),
+      linear-gradient(170deg,var(--verde) 0%,var(--verde-2) 58%,#17382a 100%);
+    color:#fff;padding:46px 16px 92px;text-align:center;position:relative;overflow:hidden}
+  .hero:after{content:"";position:absolute;left:0;right:0;bottom:-1px;height:60px;
+    background:radial-gradient(60% 100% at 50% 0,transparent 68%,var(--fundo) 69%)}
+  .medalha{width:118px;height:118px;border-radius:50%;background:#fff;margin:0 auto 20px;display:flex;align-items:center;justify-content:center;
+    box-shadow:0 18px 44px rgba(0,0,0,.33), 0 0 0 10px rgba(255,255,255,.08)}
+  .medalha img{height:74px;width:auto;display:block}
+  .hero h2{font-size:clamp(30px,6.4vw,46px);line-height:1.08;margin:0 0 12px;color:#fff}
+  .hero h2 em{font-style:normal;color:var(--ouro)}
+  .hero p{max-width:620px;margin:0 auto;color:#cfe3d6;font-size:16px}
+  .pilulas{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;margin-top:24px}
+  .pilula{background:rgba(255,255,255,.09);border:1px solid rgba(255,255,255,.18);border-radius:999px;padding:9px 18px;font-size:14px;display:flex;align-items:center;gap:8px}
+  .pilula b{font-size:16px;color:#fff;font-family:var(--serif)}
+  .pilula span{color:#bcd6c6}
+  /* ---------- layout ---------- */
+  main{max-width:980px;margin:0 auto;padding:0 16px 56px}
+  .solto{max-width:720px;margin:-64px auto 0;position:relative;z-index:2}
+  .cartao{background:var(--cartao);border:1px solid var(--linha);border-radius:22px;box-shadow:var(--sombra);padding:24px}
+  .cartao.destaque{box-shadow:var(--sombra-f)}
+  @media(min-width:640px){.cartao{padding:32px}}
+  .mt{margin-top:22px}
+  h2.titulo{font-size:clamp(24px,4.6vw,32px);margin:0 0 8px}
+  .sub{color:var(--suave);margin:0 0 20px}
+  .grade{display:grid;gap:14px}
+  @media(min-width:640px){.g2{grid-template-columns:1fr 1fr}.g3{grid-template-columns:repeat(3,1fr)}}
+  /* ---------- formulário ---------- */
+  label{display:block;font-size:12.5px;font-weight:600;letter-spacing:.02em;text-transform:uppercase;color:var(--suave);margin:0 0 7px}
+  input,select{width:100%;padding:14px 15px;border:1.5px solid var(--linha);border-radius:14px;background:var(--cartao);color:var(--texto);font:inherit;font-size:16px;transition:border-color .15s,box-shadow .15s}
+  input:hover,select:hover{border-color:#cfd9d1}
+  input:focus,select:focus{outline:0;border-color:var(--verde-3);box-shadow:0 0 0 4px rgba(47,107,76,.16)}
+  select{appearance:none;background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='20' height='20' fill='none' stroke='%235f7066' stroke-width='2'><path d='M5 8l5 5 5-5'/></svg>");background-repeat:no-repeat;background-position:right 12px center;padding-right:40px}
+  .btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;width:100%;padding:17px 22px;border:0;border-radius:15px;
+    background:linear-gradient(180deg,#1d4733,#143024);color:#fff;font-size:17px;font-weight:700;cursor:pointer;
+    box-shadow:0 10px 24px rgba(20,48,36,.28);transition:transform .07s,box-shadow .2s,filter .2s;font-family:var(--serif)}
+  .btn:hover{filter:brightness(1.1);box-shadow:0 14px 30px rgba(20,48,36,.34)} .btn:active{transform:translateY(1px)}
+  .btn.laranja{background:linear-gradient(180deg,#f08320,#d9630c);box-shadow:0 10px 24px rgba(217,99,12,.3)}
+  .btn.sec{background:none;color:var(--texto);border:1.5px solid var(--linha);box-shadow:none;font-weight:600;font-size:15px;padding:12px 18px;width:auto;font-family:"Inter",sans-serif}
+  .btn.sec:hover{border-color:var(--verde-3);filter:none}
+  /* ---------- passos ---------- */
+  .passos{display:grid;gap:16px;margin-top:26px}
+  @media(min-width:640px){.passos{grid-template-columns:repeat(3,1fr)}}
+  .passo{display:flex;gap:12px;align-items:flex-start}
+  .passo b{flex:0 0 auto;width:30px;height:30px;border-radius:50%;background:rgba(47,107,76,.12);color:var(--verde-3);
+    display:flex;align-items:center;justify-content:center;font-size:14px;font-family:var(--serif)}
+  .passo p{margin:0;font-size:14px;color:var(--suave)}
+  .passo p b{all:unset;font-weight:700;color:var(--texto)}
+  .nota{display:flex;gap:10px;align-items:flex-start;margin-top:22px;padding:13px 15px;border-radius:14px;background:rgba(224,109,16,.08);border:1px solid rgba(224,109,16,.2);font-size:13.5px;color:var(--suave)}
+  /* ---------- perguntas ---------- */
+  .ctx{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin-bottom:8px}
+  .tag{font-size:12px;font-weight:600;color:var(--verde-3);background:rgba(47,107,76,.1);padding:5px 11px;border-radius:999px}
+  .barra{height:8px;background:var(--linha);border-radius:999px;overflow:hidden}
+  .barra i{display:block;height:100%;background:linear-gradient(90deg,var(--verde-3),var(--ouro));width:0;transition:width .3s cubic-bezier(.4,0,.2,1)}
+  .enunciado{font-size:14.5px;color:var(--suave);margin:18px 0 4px;font-weight:500}
+  .afirmacao{font-family:var(--serif);font-size:clamp(21px,4.4vw,27px);line-height:1.35;margin:0 0 22px;min-height:76px}
   .ops{display:grid;gap:10px}
-  .op{display:flex;align-items:center;gap:14px;width:100%;padding:14px 16px;border:1.5px solid var(--linha);border-radius:14px;background:var(--cartao);color:var(--texto);font-size:16px;text-align:left;cursor:pointer;transition:.12s}
-  .op:hover{border-color:var(--verde-claro);transform:translateX(2px)}
-  .op.sel{border-color:var(--verde);background:rgba(47,107,76,.1)}
-  .op b{flex:0 0 auto;width:30px;height:30px;border-radius:9px;background:var(--fundo);border:1px solid var(--linha);display:flex;align-items:center;justify-content:center;font-size:14px;color:var(--suave)}
-  .op.sel b{background:var(--verde);color:#fff;border-color:var(--verde)}
-  .rodape-nav{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-top:18px}
+  .op{display:flex;align-items:center;gap:14px;width:100%;padding:15px 17px;border:1.5px solid var(--linha);border-radius:15px;background:var(--cartao);color:var(--texto);font:inherit;font-size:16px;text-align:left;cursor:pointer;transition:.13s}
+  .op:hover{border-color:var(--verde-3);background:rgba(47,107,76,.05);transform:translateX(3px)}
+  .op.sel{border-color:var(--verde-3);background:rgba(47,107,76,.12)}
+  .op b{flex:0 0 auto;width:30px;height:30px;border-radius:9px;background:var(--fundo);border:1px solid var(--linha);display:flex;align-items:center;justify-content:center;font-size:13px;color:var(--suave);font-weight:600}
+  .op.sel b{background:var(--verde-3);color:#fff;border-color:var(--verde-3)}
+  .rodape-nav{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-top:20px}
   .mini{font-size:12.5px;color:var(--suave)}
-  .dom{border:1px solid var(--linha);border-radius:16px;padding:16px;background:var(--cartao)}
-  .dom h4{margin:0 0 2px;font-size:17px}
-  .dom .v{font-size:12.5px;color:var(--laranja);font-weight:600}
-  .dom p{margin:9px 0 0;font-size:14px;color:var(--suave)}
-  .pontos{display:flex;align-items:baseline;gap:6px;margin-top:10px}
-  .pontos b{font-size:22px} .pontos span{font-size:12px;color:var(--suave)}
-  .mini-barra{height:6px;background:var(--linha);border-radius:999px;margin-top:8px;overflow:hidden}
+  /* ---------- resultado ---------- */
+  .dom{border:1px solid var(--linha);border-radius:18px;padding:18px;background:var(--cartao)}
+  .dom h4{margin:0;font-size:18px;font-family:var(--serif)}
+  .dom .v{font-size:12.5px;color:var(--laranja);font-weight:600;margin-top:2px}
+  .dom p{margin:10px 0 0;font-size:14px;color:var(--suave)}
+  .pontos{display:flex;align-items:baseline;gap:7px;margin-top:12px}
+  .pontos b{font-size:26px;font-family:var(--serif)} .pontos span{font-size:12px;color:var(--suave)}
+  .mini-barra{height:7px;background:var(--linha);border-radius:999px;margin-top:8px;overflow:hidden}
   .mini-barra i{display:block;height:100%;border-radius:999px}
-  .lista30{display:grid;gap:7px;margin-top:10px}
-  .linha30{display:grid;grid-template-columns:1fr 46px;align-items:center;gap:10px;font-size:13.5px}
-  .linha30 .t{display:flex;align-items:center;gap:8px;min-width:0}
-  .linha30 .t span{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .lista30{display:grid;gap:8px;margin-top:12px}
+  .linha30{display:grid;grid-template-columns:1fr 52px;align-items:center;gap:10px;font-size:13.5px}
+  .linha30 .t{display:flex;align-items:center;gap:10px;min-width:0}
+  .linha30 .t span{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:46%}
   .linha30 .b{height:10px;border-radius:999px;background:var(--linha);overflow:hidden;flex:1}
-  .linha30 .b i{display:block;height:100%;background:var(--verde-claro)}
-  .acoes{display:flex;flex-wrap:wrap;gap:10px;margin-top:20px}
-  .aviso{font-size:13px;color:var(--suave);border-left:3px solid var(--laranja);padding:6px 0 6px 12px;margin:16px 0}
-  footer{max-width:900px;margin:0 auto;padding:0 16px 40px;font-size:12.5px;color:var(--suave);text-align:center}
-  .oculto{display:none !important}
-  @media print{
-    header,.acoes,.nao-imprime{display:none !important}
-    body{background:#fff} .cartao{box-shadow:none;border:0;padding:0}
-    .dom{break-inside:avoid}
-  }
+  .linha30 .b i{display:block;height:100%;background:linear-gradient(90deg,var(--verde-3),var(--verde-luz))}
+  .acoes{display:flex;flex-wrap:wrap;gap:10px;margin-top:24px}
+  footer{max-width:980px;margin:0 auto;padding:10px 16px 44px;font-size:12.5px;color:var(--suave);text-align:center}
+  footer img{height:46px;width:auto;opacity:.85;margin-bottom:10px}
+  .oculto{display:none!important}
+  @media print{header,.acoes,.nao-imprime,.hero{display:none!important}
+    body{background:#fff}.cartao{box-shadow:none;border:0;padding:0}.solto{margin-top:0}.dom{break-inside:avoid}}
 </style>
 </head>
 <body>
 <header>
   <div class="topo">
-    <span class="selo"><img src="logo-oficial-arco.png" alt="IPI O Caminho"></span>
+    <span class="selo"><img src="logo-arco.png" alt="IPI O Caminho"></span>
     <div>
-      <h1 class="marca">O CAMINHO</h1>
+      <h1>O CAMINHO</h1>
       <p>IPI Arapongas · Teste dos Dons Espirituais</p>
     </div>
     <span class="etapa" id="etapa">O Caminho do Servo</span>
   </div>
 </header>
 
-<main>
-  <!-- ABERTURA -->
-  <section id="tela-inicio" class="cartao">
-    <img src="logo-oficial-horizontal.png" alt="IPI O Caminho — Igreja Presbiteriana Independente de Arapongas" style="max-width:280px;width:60%;height:auto;display:block;margin:0 auto 18px">
-    <h2 style="text-align:center">Descubra os seus dons</h2>
-    <p class="sub" style="text-align:center">
-      Questionário de <b>Christian A. Schwarz</b> — 180 afirmações em 6 dimensões — como está na apostila
-      <b>O Caminho do Servo</b>. Ao final você recebe seus <b>Dons Manifestos</b> (o que já dá fruto hoje)
-      e seus <b>Dons Latentes</b> (o que deseja desenvolver).
-    </p>
-    <div class="grade g3" style="margin-bottom:20px">
-      <div class="num"><b>180</b><span>afirmações</span></div>
-      <div class="num"><b>30</b><span>dons bíblicos</span></div>
-      <div class="num"><b>~15 min</b><span>sem pressa</span></div>
+<!-- ===== ABERTURA ===== -->
+<div id="tela-inicio">
+  <section class="hero">
+    <div class="medalha"><img src="logo-arco.png" alt="IPI O Caminho"></div>
+    <h2>Descubra os dons<br>que Deus <em>já colocou</em> em você</h2>
+    <p>Questionário de Christian A. Schwarz, como está na apostila <b>O Caminho do Servo</b>. Ao final você recebe seus <b>Dons Manifestos</b> — o que já dá fruto hoje — e seus <b>Dons Latentes</b>, o potencial a desenvolver.</p>
+    <div class="pilulas">
+      <span class="pilula"><b>180</b><span>afirmações</span></span>
+      <span class="pilula"><b>30</b><span>dons bíblicos</span></span>
+      <span class="pilula"><b>~15</b><span>minutos</span></span>
     </div>
-    <div class="grade g2" style="margin-bottom:14px">
-      <div><label for="nome">Nome completo *</label><input id="nome" autocomplete="name" placeholder="Seu nome completo"></div>
-      <div><label for="zap">WhatsApp</label><input id="zap" inputmode="tel" placeholder="(43) 99999-0000"></div>
-    </div>
-    <div style="margin-bottom:20px"><label for="rede">Rede / Ministério</label><select id="rede"></select></div>
-    <button class="btn" id="btn-iniciar">Iniciar o teste →</button>
-    <p class="mini" style="text-align:center;margin-top:12px">Suas respostas ficam salvas neste navegador. Pode fechar e voltar depois.</p>
-    <div class="aviso">Responda com sinceridade sobre <b>como você é hoje</b>, não sobre como gostaria de ser. Não existe resposta certa ou errada.</div>
   </section>
 
-  <!-- TRANSIÇÃO DE BLOCO -->
-  <section id="tela-bloco" class="cartao oculto" style="text-align:center">
+  <main>
+    <div class="solto">
+      <section class="cartao destaque">
+        <h2 class="titulo">Vamos começar</h2>
+        <p class="sub">Preencha seus dados para que a liderança possa conversar com você sobre o resultado.</p>
+        <div class="grade g2" style="margin-bottom:16px">
+          <div><label for="nome">Nome completo *</label><input id="nome" autocomplete="name" placeholder="Seu nome completo"></div>
+          <div><label for="zap">WhatsApp</label><input id="zap" inputmode="tel" placeholder="(43) 99999-0000"></div>
+        </div>
+        <div style="margin-bottom:22px"><label for="rede">Rede / Ministério</label><select id="rede"></select></div>
+        <button class="btn" id="btn-iniciar">Iniciar o teste →</button>
+
+        <div class="passos">
+          <div class="passo"><b>1</b><p><b>Responda com sinceridade</b><br>Sobre como você é hoje, não como gostaria de ser.</p></div>
+          <div class="passo"><b>2</b><p><b>Seis partes de 30</b><br>Cada parte muda a pergunta e a escala. Leia o enunciado.</p></div>
+          <div class="passo"><b>3</b><p><b>Converse depois</b><br>Dom se confirma servindo, junto da sua rede.</p></div>
+        </div>
+        <div class="nota">🔒 <span>Suas respostas ficam salvas <b>neste navegador</b>. Pode fechar e voltar depois — nada é enviado automaticamente.</span></div>
+      </section>
+    </div>
+  </main>
+</div>
+
+<main>
+  <!-- ===== TRANSIÇÃO DE PARTE ===== -->
+  <section id="tela-bloco" class="cartao oculto mt" style="text-align:center;max-width:720px;margin-left:auto;margin-right:auto">
     <p class="tag" id="bl-num">Parte 1 de 6</p>
-    <h2 id="bl-titulo" style="margin-top:14px"></h2>
+    <h2 class="titulo" style="margin-top:16px" id="bl-titulo"></h2>
     <p class="sub" id="bl-instrucao"></p>
     <button class="btn" id="btn-bloco">Continuar →</button>
   </section>
 
-  <!-- PERGUNTAS -->
-  <section id="tela-perguntas" class="cartao oculto">
-    <div class="ctx">
-      <span class="tag" id="q-bloco"></span>
-      <span class="mini" id="q-contador"></span>
-    </div>
+  <!-- ===== PERGUNTAS ===== -->
+  <section id="tela-perguntas" class="cartao oculto mt" style="max-width:720px;margin-left:auto;margin-right:auto">
+    <div class="ctx"><span class="tag" id="q-bloco"></span><span class="mini" id="q-contador"></span></div>
     <div class="barra"><i id="q-barra"></i></div>
     <p class="enunciado" id="q-enunciado"></p>
     <p class="afirmacao" id="q-texto"></p>
     <div class="ops" id="q-opcoes"></div>
     <div class="rodape-nav">
       <button class="btn sec" id="btn-voltar">← Voltar</button>
-      <span class="mini">Pelo teclado: <b>1</b> a <b>5</b></span>
+      <span class="mini">No computador: teclas <b>1</b> a <b>5</b></span>
     </div>
   </section>
 
-  <!-- RESULTADO -->
-  <section id="tela-resultado" class="oculto">
+  <!-- ===== RESULTADO ===== -->
+  <section id="tela-resultado" class="oculto mt">
     <div class="cartao">
-      <h2>Resultado de <span id="r-nome"></span></h2>
+      <h2 class="titulo">Resultado de <span id="r-nome"></span></h2>
       <p class="sub" id="r-sub"></p>
 
-      <h3 style="margin:22px 0 4px">🌳 Dons Manifestos</h3>
+      <h3 style="margin:26px 0 4px;font-size:21px">🌳 Dons Manifestos</h3>
       <p class="mini">Os 5 maiores somando <b>as 6 dimensões</b> (0 a 24 pontos). É o que já aparece na sua vida.</p>
-      <div class="grade g2" id="r-manifestos" style="margin-top:12px"></div>
+      <div class="grade g2" id="r-manifestos" style="margin-top:14px"></div>
 
-      <h3 style="margin:28px 0 4px">🌱 Dons Latentes</h3>
+      <h3 style="margin:32px 0 4px;font-size:21px">🌱 Dons Latentes</h3>
       <p class="mini">Os 5 maiores somando <b>as dimensões 2, 4 e 6</b> (0 a 12 pontos) — vontade, condição e disposição. É o potencial a desenvolver.</p>
-      <div class="grade g2" id="r-latentes" style="margin-top:12px"></div>
+      <div class="grade g2" id="r-latentes" style="margin-top:14px"></div>
 
-      <h3 style="margin:28px 0 4px">Todos os 30 dons</h3>
+      <h3 style="margin:32px 0 4px;font-size:21px">Todos os 30 dons</h3>
       <p class="mini">Pontuação total (0–24), do maior para o menor.</p>
       <div class="lista30" id="r-todos"></div>
 
@@ -171,16 +222,14 @@
         <button class="btn sec" id="btn-json">⤓ Baixar respostas</button>
         <button class="btn sec" id="btn-refazer">↻ Refazer o teste</button>
       </div>
-      <div class="aviso" style="margin-top:22px">
-        O resultado é uma <b>bússola</b>, não um diagnóstico. Converse com a liderança da sua rede e confirme na prática:
-        dom se reconhece servindo, no corpo da igreja.
-      </div>
+      <div class="nota" style="margin-top:24px">🧭 <span>O resultado é uma <b>bússola</b>, não um diagnóstico. Converse com a liderança da sua rede: dom se reconhece servindo, no corpo da igreja.</span></div>
     </div>
   </section>
 </main>
 
 <footer>
-  <p><b class="marca">IPI O CAMINHO</b> · Igreja Presbiteriana Independente de Arapongas<br>
+  <img src="logo-horizontal.png" alt="IPI O Caminho">
+  <p>Igreja Presbiteriana Independente de Arapongas<br>
   Questionário de Christian A. Schwarz (<i>As Cores dos seus Dons</i>), conforme a apostila <i>O Caminho do Servo</i>.</p>
 </footer>
 
@@ -188,137 +237,108 @@
 const REDES = ["Conselho","IPI KIDS","RISE UP","NEXT","LEGADO (Homens)","ESTER (Mulheres)","ONE (Casais)","MELHOR IDADE","Louvor e Música","Diaconia (MASD)","Intercessão","Educação Cristã","Comunicação","Células","Ainda não participo"];
 const CHAVE = "dons.v2";
 let D=null, estado={nome:"",zap:"",rede:"",respostas:{},atual:1};
-
 const $ = s => document.querySelector(s);
-const tela = id => { ["inicio","bloco","perguntas","resultado"].forEach(t => $("#tela-"+t).classList.toggle("oculto", t!==id)); window.scrollTo({top:0,behavior:"instant"}); };
+const telas = {inicio:"#tela-inicio", bloco:"#tela-bloco", perguntas:"#tela-perguntas", resultado:"#tela-resultado"};
+const tela = id => { Object.entries(telas).forEach(([k,sel]) => $(sel).classList.toggle("oculto", k!==id)); window.scrollTo({top:0}); };
 const salvar = () => { try{ localStorage.setItem(CHAVE, JSON.stringify(estado)); }catch(e){} };
 const bloco = n => D.blocos[Math.floor((n-1)/30)];
 
-function carregarEstado(){
-  try{ const s = JSON.parse(localStorage.getItem(CHAVE)||"null"); if(s && s.respostas) estado = s; }catch(e){}
-}
-
 function montarInicio(){
   $("#rede").innerHTML = REDES.map(r=>`<option>${r}</option>`).join("");
-  if(estado.nome) $("#nome").value = estado.nome;
-  if(estado.zap) $("#zap").value = estado.zap;
-  if(estado.rede) $("#rede").value = estado.rede;
-  const respondidas = Object.keys(estado.respostas).length;
-  if(respondidas>0 && respondidas<180){
-    $("#btn-iniciar").textContent = `Continuar de onde parei (${respondidas}/180) →`;
-  } else if(respondidas===180){
-    $("#btn-iniciar").textContent = "Ver meu resultado →";
-  }
+  try{ const s=JSON.parse(localStorage.getItem(CHAVE)||"null"); if(s&&s.respostas) estado=s; }catch(e){}
+  if(estado.nome) $("#nome").value=estado.nome;
+  if(estado.zap) $("#zap").value=estado.zap;
+  if(estado.rede) $("#rede").value=estado.rede;
+  const r = Object.keys(estado.respostas).length;
+  if(r>0 && r<180) $("#btn-iniciar").textContent = `Continuar de onde parei (${r}/180) →`;
+  else if(r===180) $("#btn-iniciar").textContent = "Ver meu resultado →";
 }
-
 function iniciar(){
-  const nome = $("#nome").value.trim();
+  const nome=$("#nome").value.trim();
   if(nome.length<3){ $("#nome").focus(); $("#nome").style.borderColor="var(--laranja)"; return; }
-  estado.nome=nome; estado.zap=$("#zap").value.trim(); estado.rede=$("#rede").value;
-  salvar();
-  const respondidas = Object.keys(estado.respostas).length;
-  if(respondidas===180) return mostrarResultado();
-  estado.atual = respondidas ? Math.min(respondidas+1,180) : 1;
-  (estado.atual%30===1 || estado.atual===1) ? telaBloco(bloco(estado.atual)) : mostrarPergunta();
+  estado.nome=nome; estado.zap=$("#zap").value.trim(); estado.rede=$("#rede").value; salvar();
+  const r=Object.keys(estado.respostas).length;
+  if(r===180) return mostrarResultado();
+  estado.atual = r ? Math.min(r+1,180) : 1;
+  (estado.atual%30===1) ? telaBloco(bloco(estado.atual)) : mostrarPergunta();
 }
-
 function telaBloco(b){
-  $("#bl-num").textContent = `Parte ${b.id} de 6`;
-  $("#bl-titulo").textContent = `${b.titulo} ${b.subtitulo}`;
-  $("#bl-instrucao").textContent = b.instrucao;
-  $("#etapa").textContent = `Parte ${b.id} de 6`;
+  $("#bl-num").textContent=`Parte ${b.id} de 6`;
+  $("#bl-titulo").textContent=`${b.titulo} ${b.subtitulo}`;
+  $("#bl-instrucao").textContent=b.instrucao;
+  $("#etapa").textContent=`Parte ${b.id} de 6`;
   tela("bloco");
 }
-
 function mostrarPergunta(){
-  const n = estado.atual, q = D.perguntas[n-1], b = bloco(n);
-  $("#q-bloco").textContent = `Parte ${b.id}: ${b.titulo} ${b.subtitulo}`;
-  $("#q-contador").textContent = `${n} de 180`;
-  $("#q-barra").style.width = (n/180*100)+"%";
-  $("#q-enunciado").textContent = `${b.titulo} ${b.subtitulo}`;
-  $("#q-texto").textContent = q.texto;
-  const marcada = estado.respostas[n];
-  $("#q-opcoes").innerHTML = b.opcoes.map((o,i)=>
-    `<button class="op${marcada===o.val?" sel":""}" data-val="${o.val}"><b>${i+1}</b><span>${o.label}</span></button>`).join("");
+  const n=estado.atual, q=D.perguntas[n-1], b=bloco(n);
+  $("#q-bloco").textContent=`Parte ${b.id} de 6`;
+  $("#q-contador").textContent=`afirmação ${n} de 180`;
+  $("#q-barra").style.width=(n/180*100)+"%";
+  $("#q-enunciado").textContent=`${b.titulo} ${b.subtitulo}`;
+  $("#q-texto").textContent=q.texto;
+  const marcada=estado.respostas[n];
+  $("#q-opcoes").innerHTML=b.opcoes.map((o,i)=>`<button class="op${marcada===o.val?" sel":""}" data-val="${o.val}"><b>${i+1}</b><span>${o.label}</span></button>`).join("");
   $("#q-opcoes").querySelectorAll(".op").forEach(el=>el.onclick=()=>responder(+el.dataset.val));
-  $("#btn-voltar").style.visibility = n>1 ? "visible" : "hidden";
-  $("#etapa").textContent = `${n}/180`;
+  $("#btn-voltar").style.visibility = n>1 ? "visible":"hidden";
+  $("#etapa").textContent=`${n}/180`;
   tela("perguntas");
 }
-
 function responder(val){
-  const n = estado.atual;
-  estado.respostas[n]=val; salvar();
+  const n=estado.atual; estado.respostas[n]=val; salvar();
   if(n>=180) return mostrarResultado();
-  estado.atual = n+1;
-  if(estado.atual%30===1) telaBloco(bloco(estado.atual)); else mostrarPergunta();
+  estado.atual=n+1;
+  (estado.atual%30===1) ? telaBloco(bloco(estado.atual)) : mostrarPergunta();
 }
-
 function voltar(){ if(estado.atual>1){ estado.atual--; mostrarPergunta(); } }
-
 function calcular(){
-  return D.dons.map(d=>{
-    const totalA = d.perguntas.reduce((s,n)=> s + (estado.respostas[n]||0), 0);
-    const totalB = d.perguntas.filter((_,i)=> D.blocos[i].parteB).reduce((s,n)=> s + (estado.respostas[n]||0), 0);
-    return {...d, totalA, totalB};
-  });
+  return D.dons.map(d=>({...d,
+    totalA: d.perguntas.reduce((s,n)=>s+(estado.respostas[n]||0),0),
+    totalB: d.perguntas.filter((_,i)=>D.blocos[i].parteB).reduce((s,n)=>s+(estado.respostas[n]||0),0)}));
 }
-
-function cartaoDom(d, tipo){
-  const pts = tipo==="manifesto" ? d.totalA : d.totalB;
-  const max = tipo==="manifesto" ? 24 : 12;
-  const cor = tipo==="manifesto" ? "var(--verde-claro)" : "var(--laranja)";
-  return `<div class="dom">
-    <h4>${d.nome}</h4><div class="v">${d.versiculo}</div>
+function cartaoDom(d,tipo){
+  const pts = tipo==="manifesto"?d.totalA:d.totalB, max = tipo==="manifesto"?24:12;
+  const cor = tipo==="manifesto"?"var(--verde-3)":"var(--laranja)";
+  return `<div class="dom"><h4>${d.nome}</h4><div class="v">${d.versiculo}</div>
     <div class="pontos"><b style="color:${cor}">${pts}</b><span>de ${max} pontos</span></div>
     <div class="mini-barra"><i style="width:${pts/max*100}%;background:${cor}"></i></div>
     <p>${d.descricao}</p>
     ${d.redes?`<p style="margin-top:8px"><b>Onde servir:</b> ${d.redes}</p>`:""}
-    ${d.perigo?`<p style="margin-top:6px"><b>Atenção:</b> ${d.perigo}</p>`:""}
-  </div>`;
+    ${d.perigo?`<p style="margin-top:6px"><b>Atenção:</b> ${d.perigo}</p>`:""}</div>`;
 }
-
 function mostrarResultado(){
-  const s = calcular();
-  const manifestos = [...s].sort((a,b)=> b.totalA-a.totalA || a.id-b.id).slice(0,5);
-  const latentes   = [...s].sort((a,b)=> b.totalB-a.totalB || a.id-b.id).slice(0,5);
-  $("#r-nome").textContent = estado.nome;
-  $("#r-sub").textContent = `${estado.rede||"Sem rede informada"} · ${new Date().toLocaleDateString("pt-BR")} · 180 afirmações respondidas`;
-  $("#r-manifestos").innerHTML = manifestos.map(d=>cartaoDom(d,"manifesto")).join("");
-  $("#r-latentes").innerHTML = latentes.map(d=>cartaoDom(d,"latente")).join("");
-  const ordenados=[...s].sort((a,b)=> b.totalA-a.totalA);
-  $("#r-todos").innerHTML = ordenados.map(d=>`<div class="linha30"><div class="t"><span>${d.nome}</span>
-      <span class="b"><i style="width:${d.totalA/24*100}%"></i></span></div><div class="mini" style="text-align:right">${d.totalA}/24</div></div>`).join("");
-  $("#etapa").textContent = "Resultado";
-  const resumo = `*Teste dos Dons — ${estado.nome}*\n\n*Dons Manifestos:*\n` +
-    manifestos.map((d,i)=>`${i+1}. ${d.nome} (${d.totalA}/24)`).join("\n") +
-    `\n\n*Dons Latentes:*\n` + latentes.map((d,i)=>`${i+1}. ${d.nome} (${d.totalB}/12)`).join("\n") +
-    `\n\nIPI O Caminho · O Caminho do Servo`;
-  $("#btn-zap").onclick = ()=> window.open("https://wa.me/?text="+encodeURIComponent(resumo),"_blank");
-  $("#btn-copiar").onclick = async ()=>{ try{ await navigator.clipboard.writeText(resumo); $("#btn-copiar").textContent="✓ Copiado"; setTimeout(()=>$("#btn-copiar").textContent="📋 Copiar resumo",1800);}catch(e){} };
-  $("#btn-json").onclick = ()=>{
-    const dados = {nome:estado.nome,whatsapp:estado.zap,rede:estado.rede,data:new Date().toISOString(),
-      respostas:estado.respostas, manifestos:manifestos.map(d=>({dom:d.nome,pontos:d.totalA})), latentes:latentes.map(d=>({dom:d.nome,pontos:d.totalB}))};
+  const s=calcular();
+  const manifestos=[...s].sort((a,b)=>b.totalA-a.totalA||a.id-b.id).slice(0,5);
+  const latentes=[...s].sort((a,b)=>b.totalB-a.totalB||a.id-b.id).slice(0,5);
+  $("#r-nome").textContent=estado.nome;
+  $("#r-sub").textContent=`${estado.rede||"Sem rede informada"} · ${new Date().toLocaleDateString("pt-BR")} · 180 afirmações respondidas`;
+  $("#r-manifestos").innerHTML=manifestos.map(d=>cartaoDom(d,"manifesto")).join("");
+  $("#r-latentes").innerHTML=latentes.map(d=>cartaoDom(d,"latente")).join("");
+  $("#r-todos").innerHTML=[...s].sort((a,b)=>b.totalA-a.totalA).map(d=>
+    `<div class="linha30"><div class="t"><span>${d.nome}</span><span class="b"><i style="width:${d.totalA/24*100}%"></i></span></div><div class="mini" style="text-align:right">${d.totalA}/24</div></div>`).join("");
+  $("#etapa").textContent="Resultado";
+  const resumo=`*Teste dos Dons — ${estado.nome}*\n\n*Dons Manifestos:*\n`+manifestos.map((d,i)=>`${i+1}. ${d.nome} (${d.totalA}/24)`).join("\n")
+    +`\n\n*Dons Latentes:*\n`+latentes.map((d,i)=>`${i+1}. ${d.nome} (${d.totalB}/12)`).join("\n")+`\n\nIPI O Caminho · O Caminho do Servo`;
+  $("#btn-zap").onclick=()=>window.open("https://wa.me/?text="+encodeURIComponent(resumo),"_blank");
+  $("#btn-copiar").onclick=async()=>{try{await navigator.clipboard.writeText(resumo);$("#btn-copiar").textContent="✓ Copiado";setTimeout(()=>$("#btn-copiar").textContent="📋 Copiar resumo",1800);}catch(e){}};
+  $("#btn-json").onclick=()=>{
+    const dados={nome:estado.nome,whatsapp:estado.zap,rede:estado.rede,data:new Date().toISOString(),respostas:estado.respostas,
+      manifestos:manifestos.map(d=>({dom:d.nome,pontos:d.totalA})),latentes:latentes.map(d=>({dom:d.nome,pontos:d.totalB}))};
     const a=document.createElement("a");
     a.href=URL.createObjectURL(new Blob([JSON.stringify(dados,null,2)],{type:"application/json"}));
     a.download=`dons-${estado.nome.toLowerCase().replace(/\s+/g,"-")}.json`; a.click();
   };
-  $("#btn-refazer").onclick = ()=>{ if(confirm("Apagar as respostas e começar de novo?")){ localStorage.removeItem(CHAVE); location.reload(); } };
+  $("#btn-refazer").onclick=()=>{ if(confirm("Apagar as respostas e começar de novo?")){ localStorage.removeItem(CHAVE); location.reload(); } };
   tela("resultado");
 }
-
-document.addEventListener("keydown", e=>{
+document.addEventListener("keydown",e=>{
   if($("#tela-perguntas").classList.contains("oculto")) return;
-  if(e.key>="1" && e.key<="5"){ const b=bloco(estado.atual); responder(b.opcoes[+e.key-1].val); }
-  if(e.key==="Backspace" || e.key==="ArrowLeft"){ e.preventDefault(); voltar(); }
+  if(e.key>="1"&&e.key<="5"){ responder(bloco(estado.atual).opcoes[+e.key-1].val); }
+  if(e.key==="Backspace"||e.key==="ArrowLeft"){ e.preventDefault(); voltar(); }
 });
-
 fetch("dados.json").then(r=>r.json()).then(d=>{
-  D=d; carregarEstado(); montarInicio();
-  $("#btn-iniciar").onclick = iniciar;
-  $("#btn-bloco").onclick = mostrarPergunta;
-  $("#btn-voltar").onclick = voltar;
-}).catch(()=>{ $("#tela-inicio").innerHTML = "<h2>Não consegui carregar as perguntas</h2><p class='sub'>Atualize a página (F5). Se continuar, avise a secretaria.</p>"; });
+  D=d; montarInicio();
+  $("#btn-iniciar").onclick=iniciar; $("#btn-bloco").onclick=mostrarPergunta; $("#btn-voltar").onclick=voltar;
+}).catch(()=>{ $("#tela-inicio").innerHTML="<main><div class='cartao mt'><h2 class='titulo'>Não consegui carregar as perguntas</h2><p class='sub'>Atualize a página (F5). Se continuar, avise a secretaria.</p></div></main>"; });
 </script>
 </body>
 </html>
