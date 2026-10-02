@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Teste dos Dons Espirituais · IPI O Caminho</title>
+<meta name="description" content="Questionário dos Dons Espirituais (Christian A. Schwarz) — O Caminho do Servo, IPI O Caminho, Arapongas.">
+<meta name="theme-color" content="#173627">
+<link rel="icon" href="logo-oficial-arco.png">
+<style>
+  :root{
+    --verde:#173627; --verde-2:#1f4a35; --verde-claro:#2f6b4c; --laranja:#e06d10; --laranja-2:#f59e0b;
+    --fundo:#f6f7f5; --cartao:#ffffff; --texto:#15201a; --suave:#5b6b61; --linha:#e3e8e3; --sombra:0 1px 2px rgba(10,30,20,.06),0 8px 24px rgba(10,30,20,.07);
+  }
+  @media (prefers-color-scheme: dark){
+    :root{ --fundo:#0e1512; --cartao:#15201b; --texto:#eaf1ec; --suave:#9fb3a7; --linha:#223029; --sombra:0 1px 2px rgba(0,0,0,.4),0 10px 30px rgba(0,0,0,.35); }
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;padding:0}
+  body{background:var(--fundo);color:var(--texto);font:16px/1.55 ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;-webkit-font-smoothing:antialiased}
+  .marca{font-family:Georgia,"Times New Roman",serif;letter-spacing:.06em}
+  a{color:var(--laranja)}
+  header{position:sticky;top:0;z-index:40;background:var(--verde);color:#fff;border-bottom:3px solid var(--laranja)}
+  .topo{max-width:900px;margin:0 auto;padding:10px 16px;display:flex;align-items:center;gap:12px}
+  .selo{background:#fff;border-radius:8px;padding:3px;height:44px;width:38px;display:flex;align-items:center;justify-content:center;flex:0 0 auto}
+  .selo img{height:100%;width:auto;display:block}
+  .topo h1{font-size:14px;margin:0;color:var(--laranja-2);font-weight:700}
+  .topo p{margin:1px 0 0;font-size:11.5px;color:#cfe3d6}
+  .etapa{margin-left:auto;font-size:11.5px;background:rgba(0,0,0,.28);border:1px solid rgba(255,255,255,.18);padding:5px 11px;border-radius:999px;white-space:nowrap}
+  main{max-width:900px;margin:0 auto;padding:18px 16px 56px}
+  .cartao{background:var(--cartao);border:1px solid var(--linha);border-radius:18px;box-shadow:var(--sombra);padding:22px}
+  @media (min-width:640px){ .cartao{padding:30px} }
+  h2{font-size:26px;line-height:1.2;margin:0 0 10px}
+  @media (min-width:640px){ h2{font-size:32px} }
+  .sub{color:var(--suave);margin:0 0 18px}
+  .grade{display:grid;gap:12px}
+  @media (min-width:640px){ .g3{grid-template-columns:repeat(3,1fr)} .g2{grid-template-columns:repeat(2,1fr)} }
+  .num{background:var(--fundo);border:1px solid var(--linha);border-radius:14px;padding:14px;text-align:center}
+  .num b{display:block;font-size:22px;color:var(--verde-claro)}
+  .num span{font-size:12px;color:var(--suave)}
+  label{display:block;font-size:13px;font-weight:600;margin:0 0 6px}
+  input,select{width:100%;padding:12px 14px;border:1px solid var(--linha);border-radius:12px;background:var(--cartao);color:var(--texto);font-size:16px}
+  input:focus,select:focus,button:focus-visible{outline:3px solid #9ad0b4;outline-offset:1px}
+  .btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;width:100%;padding:16px 20px;border:0;border-radius:14px;background:var(--verde);color:#fff;font-size:17px;font-weight:700;cursor:pointer;transition:transform .06s ease,filter .15s}
+  .btn:hover{filter:brightness(1.08)} .btn:active{transform:translateY(1px)}
+  .btn.sec{background:transparent;color:var(--texto);border:1px solid var(--linha);font-weight:600;font-size:15px;padding:12px 16px;width:auto}
+  .btn.laranja{background:var(--laranja)}
+  .barra{height:7px;background:var(--linha);border-radius:999px;overflow:hidden}
+  .barra i{display:block;height:100%;background:linear-gradient(90deg,var(--verde-claro),var(--laranja));width:0;transition:width .25s ease}
+  .ctx{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin-bottom:6px}
+  .tag{font-size:12px;font-weight:700;color:var(--verde-claro);background:rgba(47,107,76,.1);padding:4px 10px;border-radius:999px}
+  .enunciado{font-size:15px;color:var(--suave);margin:14px 0 4px}
+  .afirmacao{font-size:21px;line-height:1.45;font-weight:600;margin:0 0 20px;min-height:84px}
+  @media (min-width:640px){ .afirmacao{font-size:24px} }
+  .ops{display:grid;gap:10px}
+  .op{display:flex;align-items:center;gap:14px;width:100%;padding:14px 16px;border:1.5px solid var(--linha);border-radius:14px;background:var(--cartao);color:var(--texto);font-size:16px;text-align:left;cursor:pointer;transition:.12s}
+  .op:hover{border-color:var(--verde-claro);transform:translateX(2px)}
+  .op.sel{border-color:var(--verde);background:rgba(47,107,76,.1)}
+  .op b{flex:0 0 auto;width:30px;height:30px;border-radius:9px;background:var(--fundo);border:1px solid var(--linha);display:flex;align-items:center;justify-content:center;font-size:14px;color:var(--suave)}
+  .op.sel b{background:var(--verde);color:#fff;border-color:var(--verde)}
+  .rodape-nav{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-top:18px}
+  .mini{font-size:12.5px;color:var(--suave)}
+  .dom{border:1px solid var(--linha);border-radius:16px;padding:16px;background:var(--cartao)}
+  .dom h4{margin:0 0 2px;font-size:17px}
+  .dom .v{font-size:12.5px;color:var(--laranja);font-weight:600}
+  .dom p{margin:9px 0 0;font-size:14px;color:var(--suave)}
+  .pontos{display:flex;align-items:baseline;gap:6px;margin-top:10px}
+  .pontos b{font-size:22px} .pontos span{font-size:12px;color:var(--suave)}
+  .mini-barra{height:6px;background:var(--linha);border-radius:999px;margin-top:8px;overflow:hidden}
+  .mini-barra i{display:block;height:100%;border-radius:999px}
+  .lista30{display:grid;gap:7px;margin-top:10px}
+  .linha30{display:grid;grid-template-columns:1fr 46px;align-items:center;gap:10px;font-size:13.5px}
+  .linha30 .t{display:flex;align-items:center;gap:8px;min-width:0}
+  .linha30 .t span{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .linha30 .b{height:10px;border-radius:999px;background:var(--linha);overflow:hidden;flex:1}
+  .linha30 .b i{display:block;height:100%;background:var(--verde-claro)}
+  .acoes{display:flex;flex-wrap:wrap;gap:10px;margin-top:20px}
+  .aviso{font-size:13px;color:var(--suave);border-left:3px solid var(--laranja);padding:6px 0 6px 12px;margin:16px 0}
+  footer{max-width:900px;margin:0 auto;padding:0 16px 40px;font-size:12.5px;color:var(--suave);text-align:center}
+  .oculto{display:none !important}
+  @media print{
+    header,.acoes,.nao-imprime{display:none !important}
+    body{background:#fff} .cartao{box-shadow:none;border:0;padding:0}
+    .dom{break-inside:avoid}
+  }
+</style>
+</head>
+<body>
+<header>
+  <div class="topo">
+    <span class="selo"><img src="logo-oficial-arco.png" alt="IPI O Caminho"></span>
+    <div>
+      <h1 class="marca">O CAMINHO</h1>
+      <p>IPI Arapongas · Teste dos Dons Espirituais</p>
+    </div>
+    <span class="etapa" id="etapa">O Caminho do Servo</span>
+  </div>
+</header>
+
+<main>
+  <!-- ABERTURA -->
+  <section id="tela-inicio" class="cartao">
+    <img src="logo-oficial-horizontal.png" alt="IPI O Caminho — Igreja Presbiteriana Independente de Arapongas" style="max-width:280px;width:60%;height:auto;display:block;margin:0 auto 18px">
+    <h2 style="text-align:center">Descubra os seus dons</h2>
+    <p class="sub" style="text-align:center">
+      Questionário de <b>Christian A. Schwarz</b> — 180 afirmações em 6 dimensões — como está na apostila
+      <b>O Caminho do Servo</b>. Ao final você recebe seus <b>Dons Manifestos</b> (o que já dá fruto hoje)
+      e seus <b>Dons Latentes</b> (o que deseja desenvolver).
+    </p>
+    <div class="grade g3" style="margin-bottom:20px">
+      <div class="num"><b>180</b><span>afirmações</span></div>
+      <div class="num"><b>30</b><span>dons bíblicos</span></div>
+      <div class="num"><b>~15 min</b><span>sem pressa</span></div>
+    </div>
+    <div class="grade g2" style="margin-bottom:14px">
+      <div><label for="nome">Nome completo *</label><input id="nome" autocomplete="name" placeholder="Seu nome completo"></div>
+      <div><label for="zap">WhatsApp</label><input id="zap" inputmode="tel" placeholder="(43) 99999-0000"></div>
+    </div>
+    <div style="margin-bottom:20px"><label for="rede">Rede / Ministério</label><select id="rede"></select></div>
+    <button class="btn" id="btn-iniciar">Iniciar o teste →</button>
+    <p class="mini" style="text-align:center;margin-top:12px">Suas respostas ficam salvas neste navegador. Pode fechar e voltar depois.</p>
+    <div class="aviso">Responda com sinceridade sobre <b>como você é hoje</b>, não sobre como gostaria de ser. Não existe resposta certa ou errada.</div>
+  </section>
+
+  <!-- TRANSIÇÃO DE BLOCO -->
+  <section id="tela-bloco" class="cartao oculto" style="text-align:center">
+    <p class="tag" id="bl-num">Parte 1 de 6</p>
+    <h2 id="bl-titulo" style="margin-top:14px"></h2>
+    <p class="sub" id="bl-instrucao"></p>
+    <button class="btn" id="btn-bloco">Continuar →</button>
+  </section>
+
+  <!-- PERGUNTAS -->
+  <section id="tela-perguntas" class="cartao oculto">
+    <div class="ctx">
+      <span class="tag" id="q-bloco"></span>
+      <span class="mini" id="q-contador"></span>
+    </div>
+    <div class="barra"><i id="q-barra"></i></div>
+    <p class="enunciado" id="q-enunciado"></p>
+    <p class="afirmacao" id="q-texto"></p>
+    <div class="ops" id="q-opcoes"></div>
+    <div class="rodape-nav">
+      <button class="btn sec" id="btn-voltar">← Voltar</button>
+      <span class="mini">Pelo teclado: <b>1</b> a <b>5</b></span>
+    </div>
+  </section>
+
+  <!-- RESULTADO -->
+  <section id="tela-resultado" class="oculto">
+    <div class="cartao">
+      <h2>Resultado de <span id="r-nome"></span></h2>
+      <p class="sub" id="r-sub"></p>
+
+      <h3 style="margin:22px 0 4px">🌳 Dons Manifestos</h3>
+      <p class="mini">Os 5 maiores somando <b>as 6 dimensões</b> (0 a 24 pontos). É o que já aparece na sua vida.</p>
+      <div class="grade g2" id="r-manifestos" style="margin-top:12px"></div>
+
+      <h3 style="margin:28px 0 4px">🌱 Dons Latentes</h3>
+      <p class="mini">Os 5 maiores somando <b>as dimensões 2, 4 e 6</b> (0 a 12 pontos) — vontade, condição e disposição. É o potencial a desenvolver.</p>
+      <div class="grade g2" id="r-latentes" style="margin-top:12px"></div>
+
+      <h3 style="margin:28px 0 4px">Todos os 30 dons</h3>
+      <p class="mini">Pontuação total (0–24), do maior para o menor.</p>
+      <div class="lista30" id="r-todos"></div>
+
+      <div class="acoes nao-imprime">
+        <button class="btn sec" onclick="window.print()">🖨️ Salvar em PDF</button>
+        <button class="btn sec" id="btn-zap">💬 Enviar no WhatsApp</button>
+        <button class="btn sec" id="btn-copiar">📋 Copiar resumo</button>
+        <button class="btn sec" id="btn-json">⤓ Baixar respostas</button>
+        <button class="btn sec" id="btn-refazer">↻ Refazer o teste</button>
+      </div>
+      <div class="aviso" style="margin-top:22px">
+        O resultado é uma <b>bússola</b>, não um diagnóstico. Converse com a liderança da sua rede e confirme na prática:
+        dom se reconhece servindo, no corpo da igreja.
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <p><b class="marca">IPI O CAMINHO</b> · Igreja Presbiteriana Independente de Arapongas<br>
+  Questionário de Christian A. Schwarz (<i>As Cores dos seus Dons</i>), conforme a apostila <i>O Caminho do Servo</i>.</p>
+</footer>
+
+<script>
+const REDES = ["Conselho","IPI KIDS","RISE UP","NEXT","LEGADO (Homens)","ESTER (Mulheres)","ONE (Casais)","MELHOR IDADE","Louvor e Música","Diaconia (MASD)","Intercessão","Educação Cristã","Comunicação","Células","Ainda não participo"];
+const CHAVE = "dons.v2";
+let D=null, estado={nome:"",zap:"",rede:"",respostas:{},atual:1};
+
+const $ = s => document.querySelector(s);
+const tela = id => { ["inicio","bloco","perguntas","resultado"].forEach(t => $("#tela-"+t).classList.toggle("oculto", t!==id)); window.scrollTo({top:0,behavior:"instant"}); };
+const salvar = () => { try{ localStorage.setItem(CHAVE, JSON.stringify(estado)); }catch(e){} };
+const bloco = n => D.blocos[Math.floor((n-1)/30)];
+
+function carregarEstado(){
+  try{ const s = JSON.parse(localStorage.getItem(CHAVE)||"null"); if(s && s.respostas) estado = s; }catch(e){}
+}
+
+function montarInicio(){
+  $("#rede").innerHTML = REDES.map(r=>`<option>${r}</option>`).join("");
+  if(estado.nome) $("#nome").value = estado.nome;
+  if(estado.zap) $("#zap").value = estado.zap;
+  if(estado.rede) $("#rede").value = estado.rede;
+  const respondidas = Object.keys(estado.respostas).length;
+  if(respondidas>0 && respondidas<180){
+    $("#btn-iniciar").textContent = `Continuar de onde parei (${respondidas}/180) →`;
+  } else if(respondidas===180){
+    $("#btn-iniciar").textContent = "Ver meu resultado →";
+  }
+}
+
+function iniciar(){
+  const nome = $("#nome").value.trim();
+  if(nome.length<3){ $("#nome").focus(); $("#nome").style.borderColor="var(--laranja)"; return; }
+  estado.nome=nome; estado.zap=$("#zap").value.trim(); estado.rede=$("#rede").value;
+  salvar();
+  const respondidas = Object.keys(estado.respostas).length;
+  if(respondidas===180) return mostrarResultado();
+  estado.atual = respondidas ? Math.min(respondidas+1,180) : 1;
+  (estado.atual%30===1 || estado.atual===1) ? telaBloco(bloco(estado.atual)) : mostrarPergunta();
+}
+
+function telaBloco(b){
+  $("#bl-num").textContent = `Parte ${b.id} de 6`;
+  $("#bl-titulo").textContent = `${b.titulo} ${b.subtitulo}`;
+  $("#bl-instrucao").textContent = b.instrucao;
+  $("#etapa").textContent = `Parte ${b.id} de 6`;
+  tela("bloco");
+}
+
+function mostrarPergunta(){
+  const n = estado.atual, q = D.perguntas[n-1], b = bloco(n);
+  $("#q-bloco").textContent = `Parte ${b.id}: ${b.titulo} ${b.subtitulo}`;
+  $("#q-contador").textContent = `${n} de 180`;
+  $("#q-barra").style.width = (n/180*100)+"%";
+  $("#q-enunciado").textContent = `${b.titulo} ${b.subtitulo}`;
+  $("#q-texto").textContent = q.texto;
+  const marcada = estado.respostas[n];
+  $("#q-opcoes").innerHTML = b.opcoes.map((o,i)=>
+    `<button class="op${marcada===o.val?" sel":""}" data-val="${o.val}"><b>${i+1}</b><span>${o.label}</span></button>`).join("");
+  $("#q-opcoes").querySelectorAll(".op").forEach(el=>el.onclick=()=>responder(+el.dataset.val));
+  $("#btn-voltar").style.visibility = n>1 ? "visible" : "hidden";
+  $("#etapa").textContent = `${n}/180`;
+  tela("perguntas");
+}
+
+function responder(val){
+  const n = estado.atual;
+  estado.respostas[n]=val; salvar();
+  if(n>=180) return mostrarResultado();
+  estado.atual = n+1;
+  if(estado.atual%30===1) telaBloco(bloco(estado.atual)); else mostrarPergunta();
+}
+
+function voltar(){ if(estado.atual>1){ estado.atual--; mostrarPergunta(); } }
+
+function calcular(){
+  return D.dons.map(d=>{
+    const totalA = d.perguntas.reduce((s,n)=> s + (estado.respostas[n]||0), 0);
+    const totalB = d.perguntas.filter((_,i)=> D.blocos[i].parteB).reduce((s,n)=> s + (estado.respostas[n]||0), 0);
+    return {...d, totalA, totalB};
+  });
+}
+
+function cartaoDom(d, tipo){
+  const pts = tipo==="manifesto" ? d.totalA : d.totalB;
+  const max = tipo==="manifesto" ? 24 : 12;
+  const cor = tipo==="manifesto" ? "var(--verde-claro)" : "var(--laranja)";
+  return `<div class="dom">
+    <h4>${d.nome}</h4><div class="v">${d.versiculo}</div>
+    <div class="pontos"><b style="color:${cor}">${pts}</b><span>de ${max} pontos</span></div>
+    <div class="mini-barra"><i style="width:${pts/max*100}%;background:${cor}"></i></div>
+    <p>${d.descricao}</p>
+    ${d.redes?`<p style="margin-top:8px"><b>Onde servir:</b> ${d.redes}</p>`:""}
+    ${d.perigo?`<p style="margin-top:6px"><b>Atenção:</b> ${d.perigo}</p>`:""}
+  </div>`;
+}
+
+function mostrarResultado(){
+  const s = calcular();
+  const manifestos = [...s].sort((a,b)=> b.totalA-a.totalA || a.id-b.id).slice(0,5);
+  const latentes   = [...s].sort((a,b)=> b.totalB-a.totalB || a.id-b.id).slice(0,5);
+  $("#r-nome").textContent = estado.nome;
+  $("#r-sub").textContent = `${estado.rede||"Sem rede informada"} · ${new Date().toLocaleDateString("pt-BR")} · 180 afirmações respondidas`;
+  $("#r-manifestos").innerHTML = manifestos.map(d=>cartaoDom(d,"manifesto")).join("");
+  $("#r-latentes").innerHTML = latentes.map(d=>cartaoDom(d,"latente")).join("");
+  const ordenados=[...s].sort((a,b)=> b.totalA-a.totalA);
+  $("#r-todos").innerHTML = ordenados.map(d=>`<div class="linha30"><div class="t"><span>${d.nome}</span>
+      <span class="b"><i style="width:${d.totalA/24*100}%"></i></span></div><div class="mini" style="text-align:right">${d.totalA}/24</div></div>`).join("");
+  $("#etapa").textContent = "Resultado";
+  const resumo = `*Teste dos Dons — ${estado.nome}*\n\n*Dons Manifestos:*\n` +
+    manifestos.map((d,i)=>`${i+1}. ${d.nome} (${d.totalA}/24)`).join("\n") +
+    `\n\n*Dons Latentes:*\n` + latentes.map((d,i)=>`${i+1}. ${d.nome} (${d.totalB}/12)`).join("\n") +
+    `\n\nIPI O Caminho · O Caminho do Servo`;
+  $("#btn-zap").onclick = ()=> window.open("https://wa.me/?text="+encodeURIComponent(resumo),"_blank");
+  $("#btn-copiar").onclick = async ()=>{ try{ await navigator.clipboard.writeText(resumo); $("#btn-copiar").textContent="✓ Copiado"; setTimeout(()=>$("#btn-copiar").textContent="📋 Copiar resumo",1800);}catch(e){} };
+  $("#btn-json").onclick = ()=>{
+    const dados = {nome:estado.nome,whatsapp:estado.zap,rede:estado.rede,data:new Date().toISOString(),
+      respostas:estado.respostas, manifestos:manifestos.map(d=>({dom:d.nome,pontos:d.totalA})), latentes:latentes.map(d=>({dom:d.nome,pontos:d.totalB}))};
+    const a=document.createElement("a");
+    a.href=URL.createObjectURL(new Blob([JSON.stringify(dados,null,2)],{type:"application/json"}));
+    a.download=`dons-${estado.nome.toLowerCase().replace(/\s+/g,"-")}.json`; a.click();
+  };
+  $("#btn-refazer").onclick = ()=>{ if(confirm("Apagar as respostas e começar de novo?")){ localStorage.removeItem(CHAVE); location.reload(); } };
+  tela("resultado");
+}
+
+document.addEventListener("keydown", e=>{
+  if($("#tela-perguntas").classList.contains("oculto")) return;
+  if(e.key>="1" && e.key<="5"){ const b=bloco(estado.atual); responder(b.opcoes[+e.key-1].val); }
+  if(e.key==="Backspace" || e.key==="ArrowLeft"){ e.preventDefault(); voltar(); }
+});
+
+fetch("dados.json").then(r=>r.json()).then(d=>{
+  D=d; carregarEstado(); montarInicio();
+  $("#btn-iniciar").onclick = iniciar;
+  $("#btn-bloco").onclick = mostrarPergunta;
+  $("#btn-voltar").onclick = voltar;
+}).catch(()=>{ $("#tela-inicio").innerHTML = "<h2>Não consegui carregar as perguntas</h2><p class='sub'>Atualize a página (F5). Se continuar, avise a secretaria.</p>"; });
+</script>
+</body>
+</html>
