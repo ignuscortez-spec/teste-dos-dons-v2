@@ -4,10 +4,6 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <title>Teste dos Dons Espirituais | IPI O Caminho</title>
-<link rel="icon" href="favicon.ico" sizes="any">
-<link rel="icon" type="image/png" href="icone-192.png">
-<link rel="apple-touch-icon" href="apple-touch-icon.png">
-<meta name="theme-color" content="#143024">
   <script src="https://cdn.tailwindcss.com"></script>
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Cinzel:wght@600;700&display=swap" rel="stylesheet">
@@ -312,8 +308,8 @@ function prevQuestion() {
 function calcScores() {
   return DONS_MAP.map(don => {
     const totalA = don.perguntas.reduce((s, pn) => s + (answers[pn-1] || 0), 0);
-    // Total B (oficial): colunas CINZAS = partes 2, 4 e 6 (indices 1, 3 e 5) -> 0 a 12 pontos
-    const totalB = [1, 3, 5].reduce((s, b) => { const idx = don.perguntas[b]; return s + (answers[idx-1] || 0); }, 0);
+    // Total B: colunas 2 e 6 (perguntas dos blocos 2 e 6, índices 1 e 5 do array de 6 perguntas)
+    const totalB = [1, 5].reduce((s, b) => { const idx = don.perguntas[b]; return s + (answers[idx-1] || 0); }, 0);
     return { ...don, totalA, totalB };
   });
 }
@@ -328,12 +324,14 @@ function showResults() {
   const scores = calcScores();
   const byA = [...scores].sort((a,b) => b.totalA - a.totalA);
   const manifestos = byA.slice(0, 5);
-  const latentes = [...scores].sort((a,b) => b.totalB - a.totalB).slice(0, 5);
+  const latentes = [...scores].sort((a,b) => b.totalB - a.totalB)
+                              .filter(d => !manifestos.some(m => m.id === d.id))
+                              .slice(0, 5);
 
   const renderCard = (d, tipo) => {
     const desc = DONS_DESC[d.id] || {};
     const pts = tipo === 'manifesto' ? d.totalA : d.totalB;
-    const max = tipo === 'manifesto' ? 24 : 12;
+    const max = tipo === 'manifesto' ? 24 : 8;
     const pct = Math.round(pts / max * 100);
     const color = tipo === 'manifesto' ? '#173627' : '#e06d10';
     const bg = tipo === 'manifesto' ? 'bg-emerald-50 border-emerald-200' : 'bg-amber-50 border-amber-200';

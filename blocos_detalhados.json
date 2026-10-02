@@ -1,0 +1,200 @@
+[
+  {
+    "id": 1,
+    "titulo": "Sinto-me...",
+    "subtitulo": "...realizado(a) ao...",
+    "instrucao": "Se em alguma área abaixo você não tem nenhuma experiência, marque a coluna da direita.",
+    "opcoes": [
+      {
+        "val": 4,
+        "label": "Muitíssimo",
+        "desc": "4 pts"
+      },
+      {
+        "val": 3,
+        "label": "Muito",
+        "desc": "3 pts"
+      },
+      {
+        "val": 2,
+        "label": "Mais ou menos",
+        "desc": "2 pts"
+      },
+      {
+        "val": 1,
+        "label": "Pouco",
+        "desc": "1 pt"
+      },
+      {
+        "val": 0,
+        "label": "Nem um pouco",
+        "desc": "0 pts"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "titulo": "Tenho...",
+    "subtitulo": "...vontade de me envolver, mais do que fiz até agora, em...",
+    "instrucao": "Avalie o quanto você gostaria de se envolver no futuro nesta área.",
+    "opcoes": [
+      {
+        "val": 4,
+        "label": "Enorme",
+        "desc": "4 pts"
+      },
+      {
+        "val": 3,
+        "label": "Grande",
+        "desc": "3 pts"
+      },
+      {
+        "val": 2,
+        "label": "Apenas alguma",
+        "desc": "2 pts"
+      },
+      {
+        "val": 1,
+        "label": "Pouca",
+        "desc": "1 pt"
+      },
+      {
+        "val": 0,
+        "label": "Nenhuma",
+        "desc": "0 pts"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "titulo": "Tive a experiência de...",
+    "subtitulo": "",
+    "instrucao": "Avalie a frequência com que você já vivenciou estas situações na prática.",
+    "opcoes": [
+      {
+        "val": 4,
+        "label": "Muitas vezes",
+        "desc": "4 pts"
+      },
+      {
+        "val": 3,
+        "label": "Frequentemente",
+        "desc": "3 pts"
+      },
+      {
+        "val": 2,
+        "label": "De vez em quando",
+        "desc": "2 pts"
+      },
+      {
+        "val": 1,
+        "label": "Raramente",
+        "desc": "1 pt"
+      },
+      {
+        "val": 0,
+        "label": "Nunca",
+        "desc": "0 pts"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "titulo": "As afirmações a seguir correspondem...",
+    "subtitulo": "...à minha condição:",
+    "instrucao": "Avalie o quanto cada declaração reflete sua realidade e convicções atuais.",
+    "opcoes": [
+      {
+        "val": 4,
+        "label": "Muito fortemente",
+        "desc": "4 pts"
+      },
+      {
+        "val": 3,
+        "label": "Fortemente",
+        "desc": "3 pts"
+      },
+      {
+        "val": 2,
+        "label": "Mais ou menos",
+        "desc": "2 pts"
+      },
+      {
+        "val": 1,
+        "label": "Muito pouco",
+        "desc": "1 pt"
+      },
+      {
+        "val": 0,
+        "label": "Não correspondem",
+        "desc": "0 pts"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "titulo": "Para mim...",
+    "subtitulo": "",
+    "instrucao": "Avalie a facilidade ou dificuldade que você tem em realizar cada tarefa.",
+    "opcoes": [
+      {
+        "val": 4,
+        "label": "É muito fácil",
+        "desc": "4 pts"
+      },
+      {
+        "val": 3,
+        "label": "É fácil",
+        "desc": "3 pts"
+      },
+      {
+        "val": 2,
+        "label": "Nem fácil, nem difícil",
+        "desc": "2 pts"
+      },
+      {
+        "val": 1,
+        "label": "Relativamente difícil",
+        "desc": "1 pt"
+      },
+      {
+        "val": 0,
+        "label": "É bem difícil",
+        "desc": "0 pts"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "titulo": "Eu estaria...",
+    "subtitulo": "...disposto(a) a...",
+    "instrucao": "Avalie a sua disposição interna para se dedicar e crescer nesta área.",
+    "opcoes": [
+      {
+        "val": 4,
+        "label": "Muitíssimo",
+        "desc": "4 pts"
+      },
+      {
+        "val": 3,
+        "label": "Muito",
+        "desc": "3 pts"
+      },
+      {
+        "val": 2,
+        "label": "Eventualmente",
+        "desc": "2 pts"
+      },
+      {
+        "val": 1,
+        "label": "Raramente",
+        "desc": "1 pt"
+      },
+      {
+        "val": 0,
+        "label": "De forma nenhuma",
+        "desc": "0 pts"
+      }
+    ]
+  }
+]

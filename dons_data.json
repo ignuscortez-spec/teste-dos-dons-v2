@@ -1,0 +1,302 @@
+[
+  {
+    "id": 1,
+    "nome": "Organização (Administração)",
+    "pilar": "05 Servindo com Excelência",
+    "redes": "Conselho, Administração, Planejamento de Cultos, MASD",
+    "versiculo": "1 Coríntios 12:28; Lucas 14:28-30",
+    "descricao": "Capacidade dada por Deus de planejar, estruturar e coordenar recursos humanos e materiais para alcançar objetivos ministeriais com ordem e eficiência.",
+    "perigo": "Tornar-se excessivamente metódico, frio ou esquecer que o ministério é feito de pessoas e não apenas de processos.",
+    "pergunta_rapida": "Gosto de planejar etapas detalhadas, organizar cronogramas e coordenar equipes para que projetos aconteçam com ordem e pontualidade."
+  },
+  {
+    "id": 2,
+    "nome": "Missionário",
+    "pilar": "04 Amando Pessoas",
+    "redes": "Missões, Evangelismo Urbano, Novas Frentes, Mãos Amigas",
+    "versiculo": "1 Coríntios 9:19-23; Atos 13:2-3",
+    "descricao": "Habilidade espiritual de adaptar-se e comunicar o Evangelho com amor e respeito em contextos culturais, sociais e geográficos diferentes do seu ambiente original.",
+    "perigo": "Inquietação excessiva com o ambiente local ou dificuldade de criar raízes pastorais profundas em um só lugar.",
+    "pergunta_rapida": "Sinto facilidade e desejo ardente de me adaptar a culturas, ambientes sociais e realidades diferentes para levar o amor de Cristo."
+  },
+  {
+    "id": 3,
+    "nome": "Celibato",
+    "pilar": "03 Dependendo do Espírito",
+    "redes": "Missões Integrais, Dedicação Exclusiva ao Ministério",
+    "versiculo": "1 Coríntios 7:7-8; Mateus 19:11-12",
+    "descricao": "Graça concedida pelo Senhor para viver em solteirice santa e com contentamento, dedicando tempo e energia de forma desimpedida ao Reino de Deus.",
+    "perigo": "Isolamento relacional ou insensibilidade com as lutas das pessoas casadas e famílias.",
+    "pergunta_rapida": "Vivo minha solteirice em paz e contentamento, utilizando meu tempo livre e liberdade para me dedicar com alegria ao Reino."
+  },
+  {
+    "id": 4,
+    "nome": "Discernimento de Espíritos",
+    "pilar": "03 Dependendo do Espírito",
+    "redes": "Intercessão, Aconselhamento Pastoral, Liderança de Célula",
+    "versiculo": "1 Coríntios 12:10; 1 João 4:1",
+    "descricao": "Sensibilidade dada pelo Espírito para distinguir entre a verdade de Deus, intenções humanas caídas e influências demoníacas disfarçadas.",
+    "perigo": "Tornar-se desconfiado, crítico com tudo e todos, ou julgar pessoas com base em impressões carnais.",
+    "pergunta_rapida": "Percebo com clareza espiritual quando uma motivação, ensino ou atitude vem do Espírito Santo ou de intenções erradas e influências malignas."
+  },
+  {
+    "id": 5,
+    "nome": "Evangelismo",
+    "pilar": "04 Amando Pessoas",
+    "redes": "Missões, Integração, Mãos Amigas, Células, Redes",
+    "versiculo": "Efésios 4:11; Atos 8:26-40",
+    "descricao": "Facilidade sobrenatural de compartilhar as Boas Novas de salvação com pessoas não-cristãs, despertando nelas o desejo de se renderem a Jesus.",
+    "perigo": "Focar apenas na conversão e abandonar o recém-convertido sem o discipulado de acompanhamento e cuidado.",
+    "pergunta_rapida": "Sinto facilidade e alegria natural em conversar com pessoas desconhecidas sobre Jesus e como Ele transformou a minha vida."
+  },
+  {
+    "id": 6,
+    "nome": "Aconselhamento (Exortação)",
+    "pilar": "04 Amando Pessoas / 03 Espírito",
+    "redes": "Células, Discipulado, Cuidado Espiritual, Redes de Família",
+    "versiculo": "Romanos 12:8; Hebreus 10:24-25",
+    "descricao": "Ministério da palavra de ânimo, consolo e confronto amoroso que move pessoas abatidas a se levantarem e retomarem a caminhada com Deus.",
+    "perigo": "Dar conselhos rápidos baseados apenas em opiniões pessoais sem ouvir profundamente a pessoa e orar.",
+    "pergunta_rapida": "Pessoas frequentemente me procuram em momentos difíceis e saem encorajadas e com direção prática para suas vidas."
+  },
+  {
+    "id": 7,
+    "nome": "Fé",
+    "pilar": "03 Dependendo do Espírito",
+    "redes": "Conselho, Intercessão, Liderança Estratégica, Projetos",
+    "versiculo": "1 Coríntios 12:9; Hebreus 11:1",
+    "descricao": "Confiança inabalável no poder e nas promessas de Deus para realizar projetos e suprir necessidades que parecem impossíveis aos olhos humanos.",
+    "perigo": "Julgar como 'fracos na fé' aqueles que são cautelosos ou que têm dúvidas legítimas no processo.",
+    "pergunta_rapida": "Consigo manter paz e certeza inabalável na provisão e direção de Deus mesmo quando as circunstâncias ao redor parecem completamente contrárias."
+  },
+  {
+    "id": 8,
+    "nome": "Contribuição (Generosidade)",
+    "pilar": "05 Servindo com Excelência",
+    "redes": "MASD, Apoio Financeiro, Missões, Infraestrutura",
+    "versiculo": "Romanos 12:8; 2 Coríntios 8:1-5",
+    "descricao": "Alegria e liberdade no desprendimento financeiro para ofertar e investir recursos materiais e dinheiro com liberalidade na expansão do Reino de Deus.",
+    "perigo": "Tentar usar o poder financeiro para manipular decisões pastorais ou esperar reconhecimento público pelas ofertas.",
+    "pergunta_rapida": "Sinto imensa alegria e desprendimento em doar meus recursos, tempo e dinheiro de forma generosa para suprir a obra de Deus e famílias necessitadas."
+  },
+  {
+    "id": 9,
+    "nome": "Batalha Espiritual (Libertação)",
+    "pilar": "03 Dependendo do Espírito",
+    "redes": "Intercessão, Cuidado Espiritual e Restauração, Retiro Legado",
+    "versiculo": "Marcos 16:17; Lucas 10:17-20",
+    "descricao": "Autoridade espiritual conferida em nome de Jesus para discernir cadeias espirituais, quebrar opressões do inimigo e libertar cativos.",
+    "perigo": "Ver o diabo em todas as coisas, esquecendo a soberania de Deus e a responsabilidade moral do ser humano.",
+    "pergunta_rapida": "Já participei e sinto segurança espiritual ao orar em nome de Jesus por pessoas que estão sob fortes opressões espirituais e vícios."
+  },
+  {
+    "id": 10,
+    "nome": "Cura",
+    "pilar": "03 Dependendo do Espírito",
+    "redes": "Intercessão, Visitação a Hospitais, Culto de Oração",
+    "versiculo": "1 Coríntios 12:9, 28; Tiago 5:14-15",
+    "descricao": "Instrumentalidade divina através da oração da fé pela recuperação física, emocional e espiritual de enfermos, manifestando a compaixão de Jesus.",
+    "perigo": "Assumir a glória pelos milagres ou gerar culpa em pessoas doentes cuja cura ainda não se manifestou.",
+    "pergunta_rapida": "Costumo orar com fé e compaixão por pessoas doentes ou enfermas, confiando plenamente no poder restaurador do Senhor."
+  },
+  {
+    "id": 11,
+    "nome": "Ensino",
+    "pilar": "01 Vivendo a Palavra",
+    "redes": "Educação Cristã, Cursos MMI/UDF, O Caminho, Discipulado",
+    "versiculo": "Romanos 12:7; 2 Timóteo 2:2",
+    "descricao": "Didática bíblica e clareza para comunicar a verdade das Escrituras de forma acessível, ajudando a igreja a crescer na maturidade da fé.",
+    "perigo": "Orgulho intelectual, apego a debates teológicos vazios ou ensinar teorias sem aplicação prática para o dia a dia.",
+    "pergunta_rapida": "Gosto de estudar a Bíblia com profundidade e sinto facilidade em explicar textos difíceis de maneira simples para que todos entendam."
+  },
+  {
+    "id": 12,
+    "nome": "Línguas",
+    "pilar": "03 Dependendo do Espírito",
+    "redes": "Devocional Pessoal, Oração e Intercessão",
+    "versiculo": "1 Coríntios 12:10; 1 Coríntios 14:2-4",
+    "descricao": "Expressão sobrenatural de oração e edificação pessoal no Espírito Santo, conectando o coração a Deus além do intelecto racional.",
+    "perigo": "Usar o dom de forma exibicionista no culto público sem interpretação ou julgar quem não o possui.",
+    "pergunta_rapida": "Possuo uma vida de oração íntima onde oro no Espírito para minha própria edificação espiritual e intercessão diante de Deus."
+  },
+  {
+    "id": 13,
+    "nome": "Sabedoria",
+    "pilar": "01 Vivendo a Palavra / 05 Serviço",
+    "redes": "Conselho da Igreja, Liderança de Redes, Mediação de Conflitos",
+    "versiculo": "1 Coríntios 12:8; Tiago 3:13-17",
+    "descricao": "Capacidade de enxergar o coração das situações complexas e aplicar o conselho bíblico certo para tomar decisões prudentes e pacíficas.",
+    "perigo": "Acomodação ou confiar na sabedoria humana em vez de consultar a Deus em oração contínua.",
+    "pergunta_rapida": "Em situações difíceis e confusas, costumo enxergar soluções equilibradas e justas que trazem paz e direção bíblica para os envolvidos."
+  },
+  {
+    "id": 14,
+    "nome": "Estilo de Vida Simples",
+    "pilar": "05 Servindo com Excelência",
+    "redes": "Missões, Mordomia Cristã, Ação Social",
+    "versiculo": "Filipenses 4:11-13; 1 Timóteo 6:6-8",
+    "descricao": "Contentamento alegre com o básico e rejeição do consumismo materialista, liberando recursos e tempo para investir plenamente nas coisas eternas.",
+    "perigo": "Espírito crítico contra irmãos com maior poder aquisitivo ou cair no legalismo ascético.",
+    "pergunta_rapida": "Vivo com contentamento e simplicidade material, não sendo seduzido pelo consumismo ou pelo desejo de ostentar bens materiais."
+  },
+  {
+    "id": 15,
+    "nome": "Habilidade Manual (Artesanato)",
+    "pilar": "05 Servindo com Excelência",
+    "redes": "Patrimônio, Cenografia, Eventos, Manutenção, Diaconia",
+    "versiculo": "Êxodo 31:1-6; Atos 9:36-39",
+    "descricao": "Dom prático de construir, reparar, criar e embelezar espaços físicos e ferramentas com mãos hábeis para glorificar a Deus no templo e na comunidade.",
+    "perigo": "Achar que tarefas manuais têm menos valor espiritual do que pregar ou liderar.",
+    "pergunta_rapida": "Tenho prazer e facilidade em trabalhar com as mãos (consertos, decoração, carpintaria, construção, design ou culinária) para ajudar na igreja."
+  },
+  {
+    "id": 16,
+    "nome": "Ajuda (Socorro)",
+    "pilar": "05 Servindo com Excelência",
+    "redes": "Ministérios de Apoio, Diaconia, Recepção, Logística",
+    "versiculo": "1 Coríntios 12:28; Romanos 16:1-2",
+    "descricao": "Disposição silenciosa e fiel para apoiar os líderes e os ministérios nos bastidores, liberando outros para cumprirem suas vocações com leveza.",
+    "perigo": "Dificuldade de dizer 'não' quando está esgotado, ou guardar mágoa se o trabalho invisível não for elogiado.",
+    "pergunta_rapida": "Sinto imensa satisfação em servir nos bastidores (organizar cadeiras, servir mesas, apoiar eventos) sem precisar aparecer no palco."
+  },
+  {
+    "id": 17,
+    "nome": "Hospitalidade",
+    "pilar": "04 Amando Pessoas",
+    "redes": "Células (Anfitriões), Integração, Eventos, Famílias",
+    "versiculo": "1 Pedro 4:9; Romanos 12:13",
+    "descricao": "Graça acolhedora que transforma a casa e os ambientes da igreja em refúgios calorosos, fazendo qualquer visitante se sentir amado e pertencente.",
+    "perigo": "Focar tanto na comida ou na arrumação da casa a ponto de ficar ansioso e não aproveitar a comunhão com as pessoas.",
+    "pergunta_rapida": "Amo abrir as portas da minha casa para receber pessoas com carinho, preparando um ambiente aconchegante para comunhão e acolhimento."
+  },
+  {
+    "id": 18,
+    "nome": "Oração (Intercessão)",
+    "pilar": "03 Dependendo do Espírito",
+    "redes": "Intercessão, Culto de Oração, Retiro Legado, Cobertura Pastoral",
+    "versiculo": "Colossenses 4:12; 1 Timóteo 2:1-2",
+    "descricao": "Fervor e constância extraordinários para permanecer de joelhos diante de Deus por horas, intercedendo pela igreja, pastores, cidades e causas perdidas.",
+    "perigo": "Isolar-se em uma atitude de superioridade espiritual ('eu oro e os outros não oram').",
+    "pergunta_rapida": "Sinto um chamado constante e prazer genuíno em dedicar períodos regulares de oração a favor de pessoas, líderes e causas espirituais."
+  },
+  {
+    "id": 19,
+    "nome": "Interpretação de Línguas",
+    "pilar": "03 Dependendo do Espírito",
+    "redes": "Culto de Oração, Vigílias, Ambiente Litúrgico",
+    "versiculo": "1 Coríntios 12:10; 1 Coríntios 14:13, 26-28",
+    "descricao": "Capacidade concedida pelo Espírito de traduzir a mensagem espiritual de uma oração em línguas para a língua comum, trazendo edificação à igreja.",
+    "perigo": "Confundir sentimentos próprios com a interpretação inspirada pelo Espírito Santo.",
+    "pergunta_rapida": "Ao ouvir uma oração ou manifestação em línguas no ambiente de oração, costumo receber clareza no coração sobre o que Deus está comunicando."
+  },
+  {
+    "id": 20,
+    "nome": "Conhecimento (Palavra de Ciência)",
+    "pilar": "01 Vivendo a Palavra",
+    "redes": "Teologia, Pesquisa Bíblica, Aconselhamento, Formação",
+    "versiculo": "1 Coríntios 12:8; Colossenses 2:2-3",
+    "descricao": "Capacidade de assimilar, relacionar e discernir verdades teológicas profundas e fatos específicos inspirados por Deus para edificação de vidas.",
+    "perigo": "Achar que ter conhecimento bíblico equivale automaticamente a ter maturidade espiritual e caráter.",
+    "pergunta_rapida": "Gosto de memorizar, pesquisar e conectar temas bíblicos com rapidez, trazendo à memória verdades exatas no momento oportuno."
+  },
+  {
+    "id": 21,
+    "nome": "Liderança",
+    "pilar": "05 Servindo com Excelência",
+    "redes": "Liderança de Redes, Células, Conselho, Coordenadores",
+    "versiculo": "Romanos 12:8; Hebreus 13:7, 17",
+    "descricao": "Habilidade de comunicar visão inspiradora de Deus, mobilizar pessoas com entusiasmo e guiá-las em unidade para atingirem alvos santos juntos.",
+    "perigo": "Autoritarismo, querer fazer tudo à sua maneira ou ter dificuldade de ouvir conselhos contrários.",
+    "pergunta_rapida": "Tenho facilidade para inspirar pessoas, definir uma direção clara e conduzir equipes com motivação para cumprirem uma missão conjunta."
+  },
+  {
+    "id": 22,
+    "nome": "Disposição para o Sofrimento",
+    "pilar": "03 Dependendo do Espírito",
+    "redes": "Missões Difíceis, Intercessão Profunda, Cuidado a Perseguidos",
+    "versiculo": "Filipenses 1:29; 1 Pedro 4:12-14",
+    "descricao": "Graça corajosa de suportar incompreensão, perseguição e dor por amor a Cristo e à Igreja com alegria e sem murmuração.",
+    "perigo": "Desenvolver um 'complexo de mártir' ou procurar sofrimento desnecessário por teimosia.",
+    "pergunta_rapida": "Estou disposto a pagar qualquer preço pessoal, resistindo a pressões e zombarias sem desanimar, por amor à causa de Jesus Cristo."
+  },
+  {
+    "id": 23,
+    "nome": "Misericórdia",
+    "pilar": "04 Amando Pessoas",
+    "redes": "MASD (Ação Social), Visitação a Asilos/Hospitais, Acolhimento",
+    "versiculo": "Romanos 12:8; Lucas 10:33-37",
+    "descricao": "Compaixão visceral e prática que se move em favor dos marginalizados, doentes, enlutados e necessitados, transmitindo consolo de Cristo.",
+    "perigo": "Deixar a compaixão anular o discernimento ético, sendo enganado por pessoas mal-intencionadas.",
+    "pergunta_rapida": "Meu coração se comove profundamente diante de pessoas sofrendo, doentes ou desamparadas, e sinto urgência de agir para aliviar sua dor."
+  },
+  {
+    "id": 24,
+    "nome": "Milagres",
+    "pilar": "03 Dependendo do Espírito",
+    "redes": "Intercessão, Vigílias, Evangelismo de Poder",
+    "versiculo": "1 Coríntios 12:10, 28; Marcos 16:17-18",
+    "descricao": "Instrumentalidade divina onde Deus altera o curso natural dos acontecimentos para manifestar Sua glória, poder e autoridade diante dos homens.",
+    "perigo": "Buscar sinais e maravilhas pelo espetáculo em vez de glorificar a pessoa de Jesus.",
+    "pergunta_rapida": "Tenho convicção e já presenciei respostas sobrenaturais de Deus intervindo em situações humanamente impossíveis e sem saída."
+  },
+  {
+    "id": 25,
+    "nome": "Apostolado",
+    "pilar": "01 Vivendo a Palavra / 04 Pessoas",
+    "redes": "Plantação de Igrejas, Multiplicação Celular, Expansão Regional",
+    "versiculo": "1 Coríntios 12:28; Efésios 4:11-12",
+    "descricao": "Visão pioneira de abrir novos trabalhos, desbravar campos espirituais e gerar paternidade ministerial sobre novas congregações e líderes.",
+    "perigo": "Dificuldade de permanecer para cuidar dos detalhes após a fundação do trabalho.",
+    "pergunta_rapida": "Sinto forte atração por iniciar novos ministérios, plantar novas frentes e abrir caminhos onde ninguém ainda começou a trabalhar."
+  },
+  {
+    "id": 26,
+    "nome": "Pastor (Pastoreio)",
+    "pilar": "04 Amando Pessoas",
+    "redes": "Liderança de Célula, Discipulado, Redes Ministeriais, Conselho",
+    "versiculo": "Efésios 4:11; 1 Pedro 5:1-4",
+    "descricao": "Amor protetor e perseverante para alimentar, guiar, corrigir com afeto e caminhar lado a lado com um grupo de ovelhas a longo prazo.",
+    "perigo": "Sobrecarregar-se com os problemas dos outros a ponto de descuidar da própria família e do descanso pessoal.",
+    "pergunta_rapida": "Sinto profundo amor e responsabilidade por cuidar de pessoas a longo prazo, aconselhando, acompanhando e orando pelo seu crescimento espiritual."
+  },
+  {
+    "id": 27,
+    "nome": "Profecia",
+    "pilar": "01 Vivendo a Palavra / 03 Espírito",
+    "redes": "Pregar a Palavra, Alinhamento Ético, Intercessão",
+    "versiculo": "Romanos 12:6; 1 Coríntios 14:1, 3",
+    "descricao": "Comunicação ungida e corajosa da Palavra e da vontade de Deus que confronta o pecado, edifica, exorta e consola a comunidade de fé.",
+    "perigo": "Falar com dureza sem amor, ou confundir preferências pessoais com a voz profética do Senhor.",
+    "pergunta_rapida": "Sinto forte impulso no coração para falar a verdade de Deus sem medo, chamando pessoas e a igreja de volta à retidão e santidade."
+  },
+  {
+    "id": 28,
+    "nome": "Serviço (Diaconia)",
+    "pilar": "05 Servindo com Excelência",
+    "redes": "MASD, Diaconia, Infraestrutura, Apoio Geral",
+    "versiculo": "Romanos 12:7; Gálatas 6:10",
+    "descricao": "Prontidão e coração humilde para executar qualquer tarefa prática necessária com excelência, enxergando o serviço material como culto a Deus.",
+    "perigo": "Murmurar se outros irmãos parecerem menos dispostos a pegar no pesado.",
+    "pergunta_rapida": "Quando vejo algo fora do lugar ou uma necessidade prática na igreja, tomo iniciativa imediata para resolver sem precisar que me peçam."
+  },
+  {
+    "id": 29,
+    "nome": "Música (Louvor)",
+    "pilar": "02 Adorando a Deus",
+    "redes": "Equipe de Louvor, Ministração Musical, Instrumentos, Coral",
+    "versiculo": "1 Crônicas 16:41-42; Salmo 150",
+    "descricao": "Sensibilidade artística musical dada pelo Senhor para tocar instrumentos ou cantar com unção, conduzindo a congregação à presença do Pai.",
+    "perigo": "Vaidade, estrelismo no altar ou esquecer que a técnica musical precisa ser acompanhada de uma vida de oração e submissão pastoral.",
+    "pergunta_rapida": "Possuo facilidade musical (voz ou instrumento) e amo usar minha música para conduzir a igreja em profunda adoração a Deus."
+  },
+  {
+    "id": 30,
+    "nome": "Criatividade Artística",
+    "pilar": "02 Adorando a Deus / 05 Serviço",
+    "redes": "Comunicação, Mídia, Artes Visuais, Teatro, Vídeos, Design",
+    "versiculo": "Êxodo 35:30-35; Salmo 33:3",
+    "descricao": "Talento criativo e inovador para comunicar as verdades eternas do Reino através de design, artes visuais, vídeos, fotografia, escrita ou teatro.",
+    "perigo": "Buscar inovação estética pela vaidade artística e perder a mensagem bíblica simples da cruz.",
+    "pergunta_rapida": "Tenho facilidade para criar peças visuais, fotos, vídeos, textos ou expressões artísticas atraentes que comunicam a mensagem de Deus com beleza."
+  }
+]

@@ -1,0 +1,1478 @@
+{
+  "perguntas": [
+    {
+      "num": 1,
+      "bloco": 1,
+      "bloco_titulo": "Sinto-me capaz de...",
+      "texto": "...desenvolver planos detalhados para alcançar objetivos definidos."
+    },
+    {
+      "num": 2,
+      "bloco": 1,
+      "bloco_titulo": "Sinto-me capaz de...",
+      "texto": "...me adaptar aos estilos de vida e costumes de pessoas de outras culturas."
+    },
+    {
+      "num": 3,
+      "bloco": 1,
+      "bloco_titulo": "Sinto-me capaz de...",
+      "texto": "...viver sem cônjuge ou parentes. (Se você é casado(a) assinale a coluna da direita)"
+    },
+    {
+      "num": 4,
+      "bloco": 1,
+      "bloco_titulo": "Sinto-me capaz de...",
+      "texto": "...analisar afirmações de outros cristãos para ver se tendem a levar a Igreja de Jesus para desvios."
+    },
+    {
+      "num": 5,
+      "bloco": 1,
+      "bloco_titulo": "Sinto-me capaz de...",
+      "texto": "...falar de Jesus e de meu relacionamento com Ele para não-cristãos."
+    },
+    {
+      "num": 6,
+      "bloco": 1,
+      "bloco_titulo": "Sinto-me capaz de...",
+      "texto": "...encorajar outras pessoas."
+    },
+    {
+      "num": 7,
+      "bloco": 1,
+      "bloco_titulo": "Sinto-me capaz de...",
+      "texto": "...formular objetivos que parecem irreais para outras pessoas. E depois trabalhar de forma decidida para alcançá-los."
+    },
+    {
+      "num": 8,
+      "bloco": 1,
+      "bloco_titulo": "Sinto-me capaz de...",
+      "texto": "...colocar, de forma generosa, o meu dinheiro e as minhas posses à disposição do Reino de Deus."
+    },
+    {
+      "num": 9,
+      "bloco": 1,
+      "bloco_titulo": "Sinto-me capaz de...",
+      "texto": "...ajudar para que pessoas sejam libertas de opressões demoníacas."
+    },
+    {
+      "num": 10,
+      "bloco": 1,
+      "bloco_titulo": "Sinto-me capaz de...",
+      "texto": "...orar regularmente pela cura de doentes."
+    },
+    {
+      "num": 11,
+      "bloco": 1,
+      "bloco_titulo": "Sinto-me capaz de...",
+      "texto": "...colaborar na elaboração de materiais que tornem simples e interessante o aprendizado das pessoas."
+    },
+    {
+      "num": 12,
+      "bloco": 1,
+      "bloco_titulo": "Sinto-me capaz de...",
+      "texto": "...orar em línguas."
+    },
+    {
+      "num": 13,
+      "bloco": 1,
+      "bloco_titulo": "Sinto-me capaz de...",
+      "texto": "...ajudar pessoas na reflexão sobre a sua situação."
+    },
+    {
+      "num": 14,
+      "bloco": 1,
+      "bloco_titulo": "Sinto-me capaz de...",
+      "texto": "...adaptar-me a um nível de vida bem humilde."
+    },
+    {
+      "num": 15,
+      "bloco": 1,
+      "bloco_titulo": "Sinto-me capaz de...",
+      "texto": "...trabalhar no conserto e manutenção de coisas."
+    },
+    {
+      "num": 16,
+      "bloco": 1,
+      "bloco_titulo": "Sinto-me capaz de...",
+      "texto": "...trabalhar nos bastidores, em surdina, para apoiar as pessoas que estão realizando um ministério público."
+    },
+    {
+      "num": 17,
+      "bloco": 1,
+      "bloco_titulo": "Sinto-me capaz de...",
+      "texto": "...receber visitantes, mesmo quando chegam de surpresa; preparar refeições e oferecer uma boa acolhida para eles."
+    },
+    {
+      "num": 18,
+      "bloco": 1,
+      "bloco_titulo": "Sinto-me capaz de...",
+      "texto": "...orar por uma hora ou mais."
+    },
+    {
+      "num": 19,
+      "bloco": 1,
+      "bloco_titulo": "Sinto-me capaz de...",
+      "texto": "...tentar entender a oração em línguas de outras pessoas para perceber o que Deus quer nos dizer através dela."
+    },
+    {
+      "num": 20,
+      "bloco": 1,
+      "bloco_titulo": "Sinto-me capaz de...",
+      "texto": "...gastar muito tempo no estudo de livros, procurando adquirir novos conhecimentos."
+    },
+    {
+      "num": 21,
+      "bloco": 1,
+      "bloco_titulo": "Sinto-me capaz de...",
+      "texto": "...liderar pessoas, de tal forma que se engajem em um projeto que conduza a um objetivo comum."
+    },
+    {
+      "num": 22,
+      "bloco": 1,
+      "bloco_titulo": "Sinto-me capaz de...",
+      "texto": "...mostrar uma atitude positiva em meio ao sofrimento."
+    },
+    {
+      "num": 23,
+      "bloco": 1,
+      "bloco_titulo": "Sinto-me capaz de...",
+      "texto": "...preocupar-me com pessoas que estão à margem da sociedade."
+    },
+    {
+      "num": 24,
+      "bloco": 1,
+      "bloco_titulo": "Sinto-me capaz de...",
+      "texto": "...orar por coisas que vão contra as leis da natureza."
+    },
+    {
+      "num": 25,
+      "bloco": 1,
+      "bloco_titulo": "Sinto-me capaz de...",
+      "texto": "...engajar-me nos problemas de outras igrejas, procurando contribuir para soluções."
+    },
+    {
+      "num": 26,
+      "bloco": 1,
+      "bloco_titulo": "Sinto-me capaz de...",
+      "texto": "...preocupar-me com o bem espiritual de outros cristãos e acompanhá-los por um tempo longo."
+    },
+    {
+      "num": 27,
+      "bloco": 1,
+      "bloco_titulo": "Sinto-me capaz de...",
+      "texto": "...servir de canal por meio do qual Deus dá orientações claras em uma determinada situação."
+    },
+    {
+      "num": 28,
+      "bloco": 1,
+      "bloco_titulo": "Sinto-me capaz de...",
+      "texto": "...aceitar serviços pequenos e aparentemente insignificantes na Igreja."
+    },
+    {
+      "num": 29,
+      "bloco": 1,
+      "bloco_titulo": "Sinto-me capaz de...",
+      "texto": "...dar tudo de mim para desenvolver as minhas habilidades musicais."
+    },
+    {
+      "num": 30,
+      "bloco": 1,
+      "bloco_titulo": "Sinto-me capaz de...",
+      "texto": "...expressar as minhas ideias e concepções por meio da arte (teatro, desenho, pantomima etc.)."
+    },
+    {
+      "num": 31,
+      "bloco": 2,
+      "bloco_titulo": "Tenho feito...",
+      "texto": "Planejar projetos para a igreja, organizá-los e achar as pessoas para a sua implantação."
+    },
+    {
+      "num": 32,
+      "bloco": 2,
+      "bloco_titulo": "Tenho feito...",
+      "texto": "Manter contatos com pessoas de outras culturas."
+    },
+    {
+      "num": 33,
+      "bloco": 2,
+      "bloco_titulo": "Tenho feito...",
+      "texto": "Pensar se é a vontade de Deus que eu permaneça solteiro(a). (Se você é casado(a) assinale a coluna da direita)"
+    },
+    {
+      "num": 34,
+      "bloco": 2,
+      "bloco_titulo": "Tenho feito...",
+      "texto": "Analisar as palavras de outros cristãos para verificar se estão em concordância com a Bíblia."
+    },
+    {
+      "num": 35,
+      "bloco": 2,
+      "bloco_titulo": "Tenho feito...",
+      "texto": "Conversar sobre a fé em Jesus Cristo com outras pessoas."
+    },
+    {
+      "num": 36,
+      "bloco": 2,
+      "bloco_titulo": "Tenho feito...",
+      "texto": "Acompanhar de perto pessoas nas suas necessidades."
+    },
+    {
+      "num": 37,
+      "bloco": 2,
+      "bloco_titulo": "Tenho feito...",
+      "texto": "Contribuir para que 'pessoas com visão' colaborem mais na igreja."
+    },
+    {
+      "num": 38,
+      "bloco": 2,
+      "bloco_titulo": "Tenho feito...",
+      "texto": "Entrar em contato com as pessoas e projetos que dependam da minha ajuda financeira."
+    },
+    {
+      "num": 39,
+      "bloco": 2,
+      "bloco_titulo": "Tenho feito...",
+      "texto": "Ser usado por Deus na batalha contra poderes demoníacos."
+    },
+    {
+      "num": 40,
+      "bloco": 2,
+      "bloco_titulo": "Tenho feito...",
+      "texto": "Servir como instrumento por meio do qual Deus dá cura sobrenatural."
+    },
+    {
+      "num": 41,
+      "bloco": 2,
+      "bloco_titulo": "Tenho feito...",
+      "texto": "Gastar tempo em ensinar conhecimento e aptidões a outras pessoas."
+    },
+    {
+      "num": 42,
+      "bloco": 2,
+      "bloco_titulo": "Tenho feito...",
+      "texto": "Romper a barreira do racional na comunhão com Deus e adorá-lo por meio de novas línguas."
+    },
+    {
+      "num": 43,
+      "bloco": 2,
+      "bloco_titulo": "Tenho feito...",
+      "texto": "Ajudar pessoas ou organizações a acharem formas mais eficientes para alcançar os seus objetivos."
+    },
+    {
+      "num": 44,
+      "bloco": 2,
+      "bloco_titulo": "Tenho feito...",
+      "texto": "Reduzir consideravelmente o meu padrão de vida."
+    },
+    {
+      "num": 45,
+      "bloco": 2,
+      "bloco_titulo": "Tenho feito...",
+      "texto": "Fazer algo bem prático para Deus com as minhas mãos."
+    },
+    {
+      "num": 46,
+      "bloco": 2,
+      "bloco_titulo": "Tenho feito...",
+      "texto": "Apoiar outros cristãos colocando os meus dons a serviço dos seus ministérios."
+    },
+    {
+      "num": 47,
+      "bloco": 2,
+      "bloco_titulo": "Tenho feito...",
+      "texto": "Oferecer a pessoas estranhas um ambiente agradável na minha casa."
+    },
+    {
+      "num": 48,
+      "bloco": 2,
+      "bloco_titulo": "Tenho feito...",
+      "texto": "Dedicar muito tempo à oração."
+    },
+    {
+      "num": 49,
+      "bloco": 2,
+      "bloco_titulo": "Tenho feito...",
+      "texto": "Ser usado para interpretar a oração em línguas de outro cristão para uma língua entendida por todos."
+    },
+    {
+      "num": 50,
+      "bloco": 2,
+      "bloco_titulo": "Tenho feito...",
+      "texto": "Juntar e avaliar ideias e sugestões que são importantes para o corpo de Cristo."
+    },
+    {
+      "num": 51,
+      "bloco": 2,
+      "bloco_titulo": "Tenho feito...",
+      "texto": "Ser chamado/a para tarefas de liderança."
+    },
+    {
+      "num": 52,
+      "bloco": 2,
+      "bloco_titulo": "Tenho feito...",
+      "texto": "Colocar-me à disposição em situações em que a fé dependa de sacrifícios pessoais."
+    },
+    {
+      "num": 53,
+      "bloco": 2,
+      "bloco_titulo": "Tenho feito...",
+      "texto": "Ter contato com pessoas que foram negligenciadas ou abandonadas pela sociedade."
+    },
+    {
+      "num": 54,
+      "bloco": 2,
+      "bloco_titulo": "Tenho feito...",
+      "texto": "Ter a experiência de ser usado por Deus para a realização de milagres e maravilhas."
+    },
+    {
+      "num": 55,
+      "bloco": 2,
+      "bloco_titulo": "Tenho feito...",
+      "texto": "Trabalhar na fundação de novas igrejas contribuindo para a salvação de pessoas que, de outra forma, não seriam alcançadas."
+    },
+    {
+      "num": 56,
+      "bloco": 2,
+      "bloco_titulo": "Tenho feito...",
+      "texto": "Acompanhar cristãos para ajudá-los no seu crescimento espiritual."
+    },
+    {
+      "num": 57,
+      "bloco": 2,
+      "bloco_titulo": "Tenho feito...",
+      "texto": "Esclarecer outros cristãos sobre qual é a vontade de Deus em uma determinada situação."
+    },
+    {
+      "num": 58,
+      "bloco": 2,
+      "bloco_titulo": "Tenho feito...",
+      "texto": "Ser chamado/a quando há necessidade de serem realizadas tarefas bem práticas na igreja."
+    },
+    {
+      "num": 59,
+      "bloco": 2,
+      "bloco_titulo": "Tenho feito...",
+      "texto": "Servir a Deus com a música."
+    },
+    {
+      "num": 60,
+      "bloco": 2,
+      "bloco_titulo": "Tenho feito...",
+      "texto": "Expressar as minhas ideias de forma criativa e artística (dança, teatro, cerâmica etc.)."
+    },
+    {
+      "num": 61,
+      "bloco": 3,
+      "bloco_titulo": "Tive a experiência de...",
+      "texto": "...desenvolver planos que contribuíram para que o trabalho na Igreja fosse feito de forma mais eficaz."
+    },
+    {
+      "num": 62,
+      "bloco": 3,
+      "bloco_titulo": "Tive a experiência de...",
+      "texto": "...perceber que pessoas de outras culturas se sentiram bem com minha presença."
+    },
+    {
+      "num": 63,
+      "bloco": 3,
+      "bloco_titulo": "Tive a experiência de...",
+      "texto": "...perceber que como solteiro(a) tenho mais energias para trabalhar para Deus. (Se você é casado(a) assinale a coluna da direita)"
+    },
+    {
+      "num": 64,
+      "bloco": 3,
+      "bloco_titulo": "Tive a experiência de...",
+      "texto": "...reconhecer falsos motivos por trás de palavras aparentemente muito espirituais de outras pessoas."
+    },
+    {
+      "num": 65,
+      "bloco": 3,
+      "bloco_titulo": "Tive a experiência de...",
+      "texto": "...perceber que Deus me usou para levar pessoas a Jesus."
+    },
+    {
+      "num": 66,
+      "bloco": 3,
+      "bloco_titulo": "Tive a experiência de...",
+      "texto": "...notar que outras pessoas receberam conforto por meio da minha ajuda."
+    },
+    {
+      "num": 67,
+      "bloco": 3,
+      "bloco_titulo": "Tive a experiência de...",
+      "texto": "...ver que outros me consideram um/a 'sonhador/a' porque insisto em investir a minha vida em objetivos considerados 'utópicos'."
+    },
+    {
+      "num": 68,
+      "bloco": 3,
+      "bloco_titulo": "Tive a experiência de...",
+      "texto": "...ajudar outras pessoas por meio de uma oferta considerável do meu dinheiro."
+    },
+    {
+      "num": 69,
+      "bloco": 3,
+      "bloco_titulo": "Tive a experiência de...",
+      "texto": "...ver pessoas sendo libertas de opressões demoníacas por meio das minhas orações."
+    },
+    {
+      "num": 70,
+      "bloco": 3,
+      "bloco_titulo": "Tive a experiência de...",
+      "texto": "...ver como Deus curou por meio das minhas orações pessoas que estavam fisicamente ou emocionalmente doentes."
+    },
+    {
+      "num": 71,
+      "bloco": 3,
+      "bloco_titulo": "Tive a experiência de...",
+      "texto": "...ter a confirmação de que consegui passar-lhes o meu conhecimento de uma forma melhor que a maioria das pessoas."
+    },
+    {
+      "num": 72,
+      "bloco": 3,
+      "bloco_titulo": "Tive a experiência de...",
+      "texto": "...orar a Deus em uma língua que me era desconhecida."
+    },
+    {
+      "num": 73,
+      "bloco": 3,
+      "bloco_titulo": "Tive a experiência de...",
+      "texto": "...pessoas me pedirem ajuda em um problema complicado e eu ter contribuído para a solução."
+    },
+    {
+      "num": 74,
+      "bloco": 3,
+      "bloco_titulo": "Tive a experiência de...",
+      "texto": "...ter acesso mais fácil a pessoas pobres porque levo um estilo de vida mais simples."
+    },
+    {
+      "num": 75,
+      "bloco": 3,
+      "bloco_titulo": "Tive a experiência de...",
+      "texto": "...poder ajudar pessoas com a habilidade das minhas mãos."
+    },
+    {
+      "num": 76,
+      "bloco": 3,
+      "bloco_titulo": "Tive a experiência de...",
+      "texto": "...ver pessoas em posição de liderança fazerem melhor o seu trabalho porque realizei trabalhos que eram tarefas delas."
+    },
+    {
+      "num": 77,
+      "bloco": 3,
+      "bloco_titulo": "Tive a experiência de...",
+      "texto": "...notar que as pessoas se encontram mais frequentemente na minha casa porque se sentem melhor aqui do que em outros lugares."
+    },
+    {
+      "num": 78,
+      "bloco": 3,
+      "bloco_titulo": "Tive a experiência de...",
+      "texto": "...notar a intervenção concreta de Deus quando orei especificamente por algum motivo."
+    },
+    {
+      "num": 79,
+      "bloco": 3,
+      "bloco_titulo": "Tive a experiência de...",
+      "texto": "...ver que a minha interpretação das línguas foi coerente."
+    },
+    {
+      "num": 80,
+      "bloco": 3,
+      "bloco_titulo": "Tive a experiência de...",
+      "texto": "...ser o(a) primeiro/a a dar sugestões que mais tarde foram muito úteis."
+    },
+    {
+      "num": 81,
+      "bloco": 3,
+      "bloco_titulo": "Tive a experiência de...",
+      "texto": "...poder incentivar outros cristãos na realização de determinados objetivos."
+    },
+    {
+      "num": 82,
+      "bloco": 3,
+      "bloco_titulo": "Tive a experiência de...",
+      "texto": "...ver como outras pessoas foram fortalecidas por meio do meu sofrimento."
+    },
+    {
+      "num": 83,
+      "bloco": 3,
+      "bloco_titulo": "Tive a experiência de...",
+      "texto": "...ajudar pessoas que estavam em necessidade."
+    },
+    {
+      "num": 84,
+      "bloco": 3,
+      "bloco_titulo": "Tive a experiência de...",
+      "texto": "...ser usado por Deus como instrumento para realizar sinais e milagres."
+    },
+    {
+      "num": 85,
+      "bloco": 3,
+      "bloco_titulo": "Tive a experiência de...",
+      "texto": "...ver líderes de outras igrejas aceitando e colocando em prática as minhas sugestões."
+    },
+    {
+      "num": 86,
+      "bloco": 3,
+      "bloco_titulo": "Tive a experiência de...",
+      "texto": "...ajudar cristãos a crescer na fé por meio do meu acompanhamento pessoal e demorado."
+    },
+    {
+      "num": 87,
+      "bloco": 3,
+      "bloco_titulo": "Tive a experiência de...",
+      "texto": "...receber a confirmação de cristãos de que a palavra que lhes dei foi uma mensagem de Deus."
+    },
+    {
+      "num": 88,
+      "bloco": 3,
+      "bloco_titulo": "Tive a experiência de...",
+      "texto": "...perceber antes de outras pessoas e realizar as tarefas na Igreja."
+    },
+    {
+      "num": 89,
+      "bloco": 3,
+      "bloco_titulo": "Tive a experiência de...",
+      "texto": "...ver as pessoas ouvindo atentamente quando uso as minhas habilidades musicais."
+    },
+    {
+      "num": 90,
+      "bloco": 3,
+      "bloco_titulo": "Tive a experiência de...",
+      "texto": "...usar, para a glória de Deus, as minhas habilidades criativas (escrever, desenhar, teatro etc.)."
+    },
+    {
+      "num": 91,
+      "bloco": 4,
+      "bloco_titulo": "Para mim...",
+      "texto": "Planejo o meu dia e deixo pouca coisa acontecer por acaso."
+    },
+    {
+      "num": 92,
+      "bloco": 4,
+      "bloco_titulo": "Para mim...",
+      "texto": "Tenho prazer em aprender sobre outras culturas."
+    },
+    {
+      "num": 93,
+      "bloco": 4,
+      "bloco_titulo": "Para mim...",
+      "texto": "Eu me identifico perfeitamente com as palavras de Paulo, quando ele diz que outros deveriam permanecer solteiros como ele. (Se casado(a) assinale a coluna da direita)"
+    },
+    {
+      "num": 94,
+      "bloco": 4,
+      "bloco_titulo": "Para mim...",
+      "texto": "Fico profundamente perturbado quando alguém diz algo correto, mas com as motivações erradas."
+    },
+    {
+      "num": 95,
+      "bloco": 4,
+      "bloco_titulo": "Para mim...",
+      "texto": "Considero um grande problema o fato de muitos cristãos não falarem da sua fé em Jesus."
+    },
+    {
+      "num": 96,
+      "bloco": 4,
+      "bloco_titulo": "Para mim...",
+      "texto": "Quando pessoas me contam os seus problemas, consigo sentir melhor as suas dificuldades do que outras pessoas."
+    },
+    {
+      "num": 97,
+      "bloco": 4,
+      "bloco_titulo": "Para mim...",
+      "texto": "Para mim, não há dúvidas de que Deus cumpre as suas promessas, mesmo quando as evidências dizem o contrário."
+    },
+    {
+      "num": 98,
+      "bloco": 4,
+      "bloco_titulo": "Para mim...",
+      "texto": "Sinto-me tocado/a quando ouço sobre necessidades financeiras de outras pessoas."
+    },
+    {
+      "num": 99,
+      "bloco": 4,
+      "bloco_titulo": "Para mim...",
+      "texto": "Perturba-me a constatação de que muitas pessoas agem como se não existissem demônios."
+    },
+    {
+      "num": 100,
+      "bloco": 4,
+      "bloco_titulo": "Para mim...",
+      "texto": "Fico mais incomodado que outros cristãos com o fato de que se ora tão pouco pelos doentes em muitas igrejas."
+    },
+    {
+      "num": 101,
+      "bloco": 4,
+      "bloco_titulo": "Para mim...",
+      "texto": "Sofro com o fato de que tão poucos cristãos conseguem transmitir os seus conhecimentos de forma ilustrativa, interessante e eficiente."
+    },
+    {
+      "num": 102,
+      "bloco": 4,
+      "bloco_titulo": "Para mim...",
+      "texto": "Sinto-me bem em grupos nos quais se ora em línguas."
+    },
+    {
+      "num": 103,
+      "bloco": 4,
+      "bloco_titulo": "Para mim...",
+      "texto": "Tenho prazer em ajudar pessoas a encontrar soluções para os seus problemas."
+    },
+    {
+      "num": 104,
+      "bloco": 4,
+      "bloco_titulo": "Para mim...",
+      "texto": "Fico perturbado pelo padrão de vida tão elevado de muitos cristãos."
+    },
+    {
+      "num": 105,
+      "bloco": 4,
+      "bloco_titulo": "Para mim...",
+      "texto": "Não consigo ver construções, aparelhos, roupas etc. em mau estado de conservação."
+    },
+    {
+      "num": 106,
+      "bloco": 4,
+      "bloco_titulo": "Para mim...",
+      "texto": "Fico satisfeito(a) realizando tarefas que, para os outros, não são agradáveis."
+    },
+    {
+      "num": 107,
+      "bloco": 4,
+      "bloco_titulo": "Para mim...",
+      "texto": "Tenho alegria em receber visitas inesperadas, mesmo quando a minha casa ou o meu quarto não está bem arrumado."
+    },
+    {
+      "num": 108,
+      "bloco": 4,
+      "bloco_titulo": "Para mim...",
+      "texto": "Levo os pedidos de oração de outras pessoas muito a sério e oro por elas regularmente."
+    },
+    {
+      "num": 109,
+      "bloco": 4,
+      "bloco_titulo": "Para mim...",
+      "texto": "Quando alguém fala em línguas, oro para que Deus me dê a interpretação."
+    },
+    {
+      "num": 110,
+      "bloco": 4,
+      "bloco_titulo": "Para mim...",
+      "texto": "Ocupo-me constantemente com verdades bíblicas e com o seu significado para o dia a dia."
+    },
+    {
+      "num": 111,
+      "bloco": 4,
+      "bloco_titulo": "Para mim...",
+      "texto": "Em um grupo sem líder eu tomo a iniciativa."
+    },
+    {
+      "num": 112,
+      "bloco": 4,
+      "bloco_titulo": "Para mim...",
+      "texto": "Relatos de mártires cristãos me fascinam."
+    },
+    {
+      "num": 113,
+      "bloco": 4,
+      "bloco_titulo": "Para mim...",
+      "texto": "Quando vejo uma necessidade, quero ajudar imediatamente."
+    },
+    {
+      "num": 114,
+      "bloco": 4,
+      "bloco_titulo": "Para mim...",
+      "texto": "Oro para que Deus faça sinais e milagres por meu intermédio como acontecia na época da Igreja Primitiva."
+    },
+    {
+      "num": 115,
+      "bloco": 4,
+      "bloco_titulo": "Para mim...",
+      "texto": "Sinto mais do que outros cristãos a necessidade de promover unidade entre as diferentes igrejas."
+    },
+    {
+      "num": 116,
+      "bloco": 4,
+      "bloco_titulo": "Para mim...",
+      "texto": "Estou perturbado(a) com o fato de que muitos cristãos recebem um acompanhamento tão precário na sua vida pessoal e espiritual."
+    },
+    {
+      "num": 117,
+      "bloco": 4,
+      "bloco_titulo": "Para mim...",
+      "texto": "Oro para que Deus me dê mensagens para outros cristãos com mais regularidade do que aconteceu até agora."
+    },
+    {
+      "num": 118,
+      "bloco": 4,
+      "bloco_titulo": "Para mim...",
+      "texto": "Noto quando outras pessoas estão precisando de ajuda prática e estou disposto/a a prestá-la."
+    },
+    {
+      "num": 119,
+      "bloco": 4,
+      "bloco_titulo": "Para mim...",
+      "texto": "Entristeço-me quando, na Igreja, se dá pouco valor para a qualidade da música."
+    },
+    {
+      "num": 120,
+      "bloco": 4,
+      "bloco_titulo": "Para mim...",
+      "texto": "Considero importante para os cristãos se engajarem na preservação e no embelezamento do meio-ambiente em que vivem."
+    },
+    {
+      "num": 121,
+      "bloco": 5,
+      "bloco_titulo": "Gostaria de...",
+      "texto": "...desenvolver, por conta própria, projetos que envolvam negociações e organização."
+    },
+    {
+      "num": 122,
+      "bloco": 5,
+      "bloco_titulo": "Gostaria de...",
+      "texto": "...fazer contato com pessoas que têm um estilo de vida totalmente diferente do meu."
+    },
+    {
+      "num": 123,
+      "bloco": 5,
+      "bloco_titulo": "Gostaria de...",
+      "texto": "...abrir mão de constituir família. (Se você é casado(a) assinale a coluna da direita)"
+    },
+    {
+      "num": 124,
+      "bloco": 5,
+      "bloco_titulo": "Gostaria de...",
+      "texto": "...discernir se as palavras de uma pessoa são de origem divina, humana ou satânica."
+    },
+    {
+      "num": 125,
+      "bloco": 5,
+      "bloco_titulo": "Gostaria de...",
+      "texto": "...perceber o momento em que uma pessoa está preparada para aceitar o evangelho."
+    },
+    {
+      "num": 126,
+      "bloco": 5,
+      "bloco_titulo": "Gostaria de...",
+      "texto": "...aprofundar, em pouco tempo, uma conversa com pessoas que eu não conhecia antes."
+    },
+    {
+      "num": 127,
+      "bloco": 5,
+      "bloco_titulo": "Gostaria de...",
+      "texto": "...orar e trabalhar por coisas que outros cristãos consideram impossíveis."
+    },
+    {
+      "num": 128,
+      "bloco": 5,
+      "bloco_titulo": "Gostaria de...",
+      "texto": "...dar, regularmente, parte do meu dinheiro para o Reino de Deus."
+    },
+    {
+      "num": 129,
+      "bloco": 5,
+      "bloco_titulo": "Gostaria de...",
+      "texto": "...perceber se há áreas na vida de uma pessoa que estão sob domínio demoníaco."
+    },
+    {
+      "num": 130,
+      "bloco": 5,
+      "bloco_titulo": "Gostaria de...",
+      "texto": "...orar pessoal e concretamente pela cura de doentes."
+    },
+    {
+      "num": 131,
+      "bloco": 5,
+      "bloco_titulo": "Gostaria de...",
+      "texto": "...transmitir verdades e conceitos de forma lógica, interessante e compreensível para os ouvintes."
+    },
+    {
+      "num": 132,
+      "bloco": 5,
+      "bloco_titulo": "Gostaria de...",
+      "texto": "...transmitir uma mensagem de Deus (ou uma oração) a outros cristãos em forma de oração em línguas."
+    },
+    {
+      "num": 133,
+      "bloco": 5,
+      "bloco_titulo": "Gostaria de...",
+      "texto": "...aplicar conhecimento teórico a uma situação concreta."
+    },
+    {
+      "num": 134,
+      "bloco": 5,
+      "bloco_titulo": "Gostaria de...",
+      "texto": "...viver com um padrão de vida simples."
+    },
+    {
+      "num": 135,
+      "bloco": 5,
+      "bloco_titulo": "Gostaria de...",
+      "texto": "...resolver problemas práticos que, normalmente, necessitariam do trabalho de um técnico especializado."
+    },
+    {
+      "num": 136,
+      "bloco": 5,
+      "bloco_titulo": "Gostaria de...",
+      "texto": "...ajudar outros cristãos nas suas tarefas para que possam fazer melhor o seu trabalho."
+    },
+    {
+      "num": 137,
+      "bloco": 5,
+      "bloco_titulo": "Gostaria de...",
+      "texto": "...transmitir a visitas desconhecidas a sensação de estarem em casa."
+    },
+    {
+      "num": 138,
+      "bloco": 5,
+      "bloco_titulo": "Gostaria de...",
+      "texto": "...orar semanas ou meses seguidos por motivos bem definidos."
+    },
+    {
+      "num": 139,
+      "bloco": 5,
+      "bloco_titulo": "Gostaria de...",
+      "texto": "...sentir o que Deus quer dizer quando ouço uma mensagem em línguas."
+    },
+    {
+      "num": 140,
+      "bloco": 5,
+      "bloco_titulo": "Gostaria de...",
+      "texto": "...descobrir, formular e sistematizar fatos que são importantes para a saúde da igreja."
+    },
+    {
+      "num": 141,
+      "bloco": 5,
+      "bloco_titulo": "Gostaria de...",
+      "texto": "...delegar tarefas a outras pessoas."
+    },
+    {
+      "num": 142,
+      "bloco": 5,
+      "bloco_titulo": "Gostaria de...",
+      "texto": "...dispor-me a sofrer por Jesus."
+    },
+    {
+      "num": 143,
+      "bloco": 5,
+      "bloco_titulo": "Gostaria de...",
+      "texto": "...expressar a pessoas em necessidade o quanto sofro com elas."
+    },
+    {
+      "num": 144,
+      "bloco": 5,
+      "bloco_titulo": "Gostaria de...",
+      "texto": "...orar por sinais sobrenaturais e milagres."
+    },
+    {
+      "num": 145,
+      "bloco": 5,
+      "bloco_titulo": "Gostaria de...",
+      "texto": "...aconselhar grupos e igrejas acerca de sua situação espiritual."
+    },
+    {
+      "num": 146,
+      "bloco": 5,
+      "bloco_titulo": "Gostaria de...",
+      "texto": "...acompanhar pessoalmente um grupo de cristãos e me empenhar pela sua unidade."
+    },
+    {
+      "num": 147,
+      "bloco": 5,
+      "bloco_titulo": "Gostaria de...",
+      "texto": "...receber orientações de Deus sobre o que é sua vontade em uma determinada situação."
+    },
+    {
+      "num": 148,
+      "bloco": 5,
+      "bloco_titulo": "Gostaria de...",
+      "texto": "...aceitar tarefas que não são muito atraentes para outros."
+    },
+    {
+      "num": 149,
+      "bloco": 5,
+      "bloco_titulo": "Gostaria de...",
+      "texto": "...aprender a tocar um instrumento musical."
+    },
+    {
+      "num": 150,
+      "bloco": 5,
+      "bloco_titulo": "Gostaria de...",
+      "texto": "...colocar em prática formas criativas de comunicação (pintura, teatro, pantomima etc.)."
+    },
+    {
+      "num": 151,
+      "bloco": 6,
+      "bloco_titulo": "Estaria disposto(a) a...",
+      "texto": "...participar de treinamento que me ajude a melhorar as minhas habilidades de planejamento, organização e delegação de tarefas."
+    },
+    {
+      "num": 152,
+      "bloco": 6,
+      "bloco_titulo": "Estaria disposto(a) a...",
+      "texto": "...trabalhar em outro país ou cultura, se tivesse a oportunidade."
+    },
+    {
+      "num": 153,
+      "bloco": 6,
+      "bloco_titulo": "Estaria disposto(a) a...",
+      "texto": "...permanecer solteiro para melhor trabalhar para o Reino de Deus. (Se você é casado(a) assinale a coluna da direita)"
+    },
+    {
+      "num": 154,
+      "bloco": 6,
+      "bloco_titulo": "Estaria disposto(a) a...",
+      "texto": "...investir muito tempo advertindo pessoas de possíveis perigos espirituais."
+    },
+    {
+      "num": 155,
+      "bloco": 6,
+      "bloco_titulo": "Estaria disposto(a) a...",
+      "texto": "...participar de um treinamento em que se aprenda a levar pessoas a Jesus."
+    },
+    {
+      "num": 156,
+      "bloco": 6,
+      "bloco_titulo": "Estaria disposto(a) a...",
+      "texto": "...aprender mais sobre como ajudar pessoas por meio de aconselhamento espiritual e aceitar um desafio, mesmo que implicasse um alto risco."
+    },
+    {
+      "num": 157,
+      "bloco": 6,
+      "bloco_titulo": "Estaria disposto(a) a...",
+      "texto": "...apoiar regularmente com o meu dinheiro cristãos que estão realizando um trabalho digno."
+    },
+    {
+      "num": 158,
+      "bloco": 6,
+      "bloco_titulo": "Estaria disposto(a) a...",
+      "texto": "...colocar-me à disposição para a batalha espiritual contra demônios."
+    },
+    {
+      "num": 159,
+      "bloco": 6,
+      "bloco_titulo": "Estaria disposto(a) a...",
+      "texto": "...participar de um ministério de oração pelos doentes."
+    },
+    {
+      "num": 160,
+      "bloco": 6,
+      "bloco_titulo": "Estaria disposto(a) a...",
+      "texto": "...ler mais sobre comunicação para desenvolver a minha capacidade de ensino."
+    },
+    {
+      "num": 161,
+      "bloco": 6,
+      "bloco_titulo": "Estaria disposto(a) a...",
+      "texto": "...orar publicamente em línguas se Deus me der esse dom."
+    },
+    {
+      "num": 162,
+      "bloco": 6,
+      "bloco_titulo": "Estaria disposto(a) a...",
+      "texto": "...investir muito tempo aconselhando pessoas ou grupos para tomada de decisões importantes."
+    },
+    {
+      "num": 163,
+      "bloco": 6,
+      "bloco_titulo": "Estaria disposto(a) a...",
+      "texto": "...abrir mão de boa comida, casa confortável e roupas caras."
+    },
+    {
+      "num": 164,
+      "bloco": 6,
+      "bloco_titulo": "Estaria disposto(a) a...",
+      "texto": "...ajudar no conserto e manutenção de aparelhos ou dependências, se necessário."
+    },
+    {
+      "num": 165,
+      "bloco": 6,
+      "bloco_titulo": "Estaria disposto(a) a...",
+      "texto": "...aliviar a carga de irmãos que estão sobrecarregados com muitas atividades, fazendo tarefas que eles deveriam fazer."
+    },
+    {
+      "num": 166,
+      "bloco": 6,
+      "bloco_titulo": "Estaria disposto(a) a...",
+      "texto": "...compartilhar mais a minha casa com visitantes do que fiz até agora."
+    },
+    {
+      "num": 167,
+      "bloco": 6,
+      "bloco_titulo": "Estaria disposto(a) a...",
+      "texto": "...participar de um grupo que tem o ministério de oração por outras pessoas."
+    },
+    {
+      "num": 168,
+      "bloco": 6,
+      "bloco_titulo": "Estaria disposto(a) a...",
+      "texto": "...interpretar publicamente a oração em línguas de outras pessoas se Deus me der a interpretação."
+    },
+    {
+      "num": 169,
+      "bloco": 6,
+      "bloco_titulo": "Estaria disposto(a) a...",
+      "texto": "...investir muito tempo no desenvolvimento de novas ideias que contribuam para a Igreja de Jesus."
+    },
+    {
+      "num": 170,
+      "bloco": 6,
+      "bloco_titulo": "Estaria disposto(a) a...",
+      "texto": "...colocar-me à disposição para liderar um grupo grande de cristãos."
+    },
+    {
+      "num": 171,
+      "bloco": 6,
+      "bloco_titulo": "Estaria disposto(a) a...",
+      "texto": "...arriscar a minha vida, se isso for necessário, para o Reino de Deus."
+    },
+    {
+      "num": 172,
+      "bloco": 6,
+      "bloco_titulo": "Estaria disposto(a) a...",
+      "texto": "...participar de uma ação de Igreja que se dedica especialmente aos abandonados pela sociedade."
+    },
+    {
+      "num": 173,
+      "bloco": 6,
+      "bloco_titulo": "Estaria disposto(a) a...",
+      "texto": "...concentrar a minha oração em casos considerados humanamente perdidos."
+    },
+    {
+      "num": 174,
+      "bloco": 6,
+      "bloco_titulo": "Estaria disposto(a) a...",
+      "texto": "...intermediar situações de conflito entre igrejas."
+    },
+    {
+      "num": 175,
+      "bloco": 6,
+      "bloco_titulo": "Estaria disposto(a) a...",
+      "texto": "...assumir a responsabilidade por um grupo de cristãos."
+    },
+    {
+      "num": 176,
+      "bloco": 6,
+      "bloco_titulo": "Estaria disposto(a) a...",
+      "texto": "...transmitir mensagens, mesmo desagradáveis, a irmãos da Igreja."
+    },
+    {
+      "num": 177,
+      "bloco": 6,
+      "bloco_titulo": "Estaria disposto(a) a...",
+      "texto": "...investir o meu tempo com tarefas na Igreja que são mais urgentes."
+    },
+    {
+      "num": 178,
+      "bloco": 6,
+      "bloco_titulo": "Estaria disposto(a) a...",
+      "texto": "...participar de um evento de música na Igreja."
+    },
+    {
+      "num": 179,
+      "bloco": 6,
+      "bloco_titulo": "Estaria disposto(a) a...",
+      "texto": "...aprender a desenvolver habilidades artísticas para usá-las na Igreja."
+    },
+    {
+      "num": 180,
+      "bloco": 6,
+      "bloco_titulo": "Estaria disposto(a) a...",
+      "texto": "...participar de um grupo em que somos ensinados a desenvolver habilidades artísticas para usar no serviço a Deus."
+    }
+  ],
+  "dons_map": [
+    {
+      "id": 1,
+      "nome": "Organização",
+      "perguntas": [
+        1,
+        31,
+        61,
+        91,
+        121,
+        151
+      ]
+    },
+    {
+      "id": 2,
+      "nome": "Missionário",
+      "perguntas": [
+        2,
+        32,
+        62,
+        92,
+        122,
+        152
+      ]
+    },
+    {
+      "id": 3,
+      "nome": "Celibato",
+      "perguntas": [
+        3,
+        33,
+        63,
+        93,
+        123,
+        153
+      ]
+    },
+    {
+      "id": 4,
+      "nome": "Discernimento de Espíritos",
+      "perguntas": [
+        4,
+        34,
+        64,
+        94,
+        124,
+        154
+      ]
+    },
+    {
+      "id": 5,
+      "nome": "Evangelismo",
+      "perguntas": [
+        5,
+        35,
+        65,
+        95,
+        125,
+        155
+      ]
+    },
+    {
+      "id": 6,
+      "nome": "Aconselhamento (Exortação)",
+      "perguntas": [
+        6,
+        36,
+        66,
+        96,
+        126,
+        156
+      ]
+    },
+    {
+      "id": 7,
+      "nome": "Fé",
+      "perguntas": [
+        7,
+        37,
+        67,
+        97,
+        127,
+        157
+      ]
+    },
+    {
+      "id": 8,
+      "nome": "Contribuição (Generosidade)",
+      "perguntas": [
+        8,
+        38,
+        68,
+        98,
+        128,
+        158
+      ]
+    },
+    {
+      "id": 9,
+      "nome": "Batalha Espiritual",
+      "perguntas": [
+        9,
+        39,
+        69,
+        99,
+        129,
+        159
+      ]
+    },
+    {
+      "id": 10,
+      "nome": "Cura",
+      "perguntas": [
+        10,
+        40,
+        70,
+        100,
+        130,
+        160
+      ]
+    },
+    {
+      "id": 11,
+      "nome": "Ensino",
+      "perguntas": [
+        11,
+        41,
+        71,
+        101,
+        131,
+        161
+      ]
+    },
+    {
+      "id": 12,
+      "nome": "Línguas",
+      "perguntas": [
+        12,
+        42,
+        72,
+        102,
+        132,
+        162
+      ]
+    },
+    {
+      "id": 13,
+      "nome": "Sabedoria",
+      "perguntas": [
+        13,
+        43,
+        73,
+        103,
+        133,
+        163
+      ]
+    },
+    {
+      "id": 14,
+      "nome": "Estilo de Vida Simples",
+      "perguntas": [
+        14,
+        44,
+        74,
+        104,
+        134,
+        164
+      ]
+    },
+    {
+      "id": 15,
+      "nome": "Habilidade Manual",
+      "perguntas": [
+        15,
+        45,
+        75,
+        105,
+        135,
+        165
+      ]
+    },
+    {
+      "id": 16,
+      "nome": "Ajuda (Socorro)",
+      "perguntas": [
+        16,
+        46,
+        76,
+        106,
+        136,
+        166
+      ]
+    },
+    {
+      "id": 17,
+      "nome": "Hospitalidade",
+      "perguntas": [
+        17,
+        47,
+        77,
+        107,
+        137,
+        167
+      ]
+    },
+    {
+      "id": 18,
+      "nome": "Oração (Intercessão)",
+      "perguntas": [
+        18,
+        48,
+        78,
+        108,
+        138,
+        168
+      ]
+    },
+    {
+      "id": 19,
+      "nome": "Interpretação de Línguas",
+      "perguntas": [
+        19,
+        49,
+        79,
+        109,
+        139,
+        169
+      ]
+    },
+    {
+      "id": 20,
+      "nome": "Conhecimento",
+      "perguntas": [
+        20,
+        50,
+        80,
+        110,
+        140,
+        170
+      ]
+    },
+    {
+      "id": 21,
+      "nome": "Liderança",
+      "perguntas": [
+        21,
+        51,
+        81,
+        111,
+        141,
+        171
+      ]
+    },
+    {
+      "id": 22,
+      "nome": "Sofrimento (Martírio)",
+      "perguntas": [
+        22,
+        52,
+        82,
+        112,
+        142,
+        172
+      ]
+    },
+    {
+      "id": 23,
+      "nome": "Misericórdia",
+      "perguntas": [
+        23,
+        53,
+        83,
+        113,
+        143,
+        173
+      ]
+    },
+    {
+      "id": 24,
+      "nome": "Milagres",
+      "perguntas": [
+        24,
+        54,
+        84,
+        114,
+        144,
+        174
+      ]
+    },
+    {
+      "id": 25,
+      "nome": "Apostolado",
+      "perguntas": [
+        25,
+        55,
+        85,
+        115,
+        145,
+        175
+      ]
+    },
+    {
+      "id": 26,
+      "nome": "Pastoreio",
+      "perguntas": [
+        26,
+        56,
+        86,
+        116,
+        146,
+        176
+      ]
+    },
+    {
+      "id": 27,
+      "nome": "Profecia",
+      "perguntas": [
+        27,
+        57,
+        87,
+        117,
+        147,
+        177
+      ]
+    },
+    {
+      "id": 28,
+      "nome": "Serviço (Diaconia)",
+      "perguntas": [
+        28,
+        58,
+        88,
+        118,
+        148,
+        178
+      ]
+    },
+    {
+      "id": 29,
+      "nome": "Música",
+      "perguntas": [
+        29,
+        59,
+        89,
+        119,
+        149,
+        179
+      ]
+    },
+    {
+      "id": 30,
+      "nome": "Criatividade Artística",
+      "perguntas": [
+        30,
+        60,
+        90,
+        120,
+        150,
+        180
+      ]
+    }
+  ],
+  "blocos": [
+    {
+      "id": 1,
+      "titulo": "Sinto-me capaz de...",
+      "inicio": 1
+    },
+    {
+      "id": 2,
+      "titulo": "Tenho feito...",
+      "inicio": 31
+    },
+    {
+      "id": 3,
+      "titulo": "Tive a experiência de...",
+      "inicio": 61
+    },
+    {
+      "id": 4,
+      "titulo": "Para mim...",
+      "inicio": 91
+    },
+    {
+      "id": 5,
+      "titulo": "Gostaria de...",
+      "inicio": 121
+    },
+    {
+      "id": 6,
+      "titulo": "Estaria disposto(a) a...",
+      "inicio": 151
+    }
+  ]
+}
