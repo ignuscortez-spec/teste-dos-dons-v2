@@ -41,14 +41,13 @@
   .etapa{margin-left:auto;font-size:11.5px;background:rgba(0,0,0,.3);border:1px solid rgba(255,255,255,.16);padding:5px 12px;border-radius:999px;white-space:nowrap}
   /* ---------- hero ---------- */
   .hero{background:
-      radial-gradient(900px 420px at 50% -10%, rgba(143,210,174,.22), transparent 60%),
+      radial-gradient(900px 460px at 50% -20%, rgba(143,210,174,.2), transparent 62%),
       linear-gradient(170deg,var(--verde) 0%,var(--verde-2) 58%,#17382a 100%);
-    color:#fff;padding:46px 16px 92px;text-align:center;position:relative;overflow:hidden}
-  .hero:after{content:"";position:absolute;left:0;right:0;bottom:-1px;height:60px;
-    background:radial-gradient(60% 100% at 50% 0,transparent 68%,var(--fundo) 69%)}
-  .medalha{width:118px;height:118px;border-radius:50%;background:#fff;margin:0 auto 20px;display:flex;align-items:center;justify-content:center;
-    box-shadow:0 18px 44px rgba(0,0,0,.33), 0 0 0 10px rgba(255,255,255,.08)}
-  .medalha img{height:74px;width:auto;display:block}
+    color:#fff;padding:54px 16px 110px;text-align:center;position:relative;overflow:hidden}
+  .onda{position:absolute;left:0;right:0;bottom:-1px;width:100%;height:74px;display:block}
+  .onda path{fill:var(--fundo)}
+  .chamada{display:inline-block;font-size:12px;letter-spacing:.22em;text-transform:uppercase;
+    color:var(--ouro);border:1px solid rgba(240,169,59,.4);border-radius:999px;padding:6px 16px;margin-bottom:20px}
   .hero h2{font-size:clamp(30px,6.4vw,46px);line-height:1.08;margin:0 0 12px;color:#fff}
   .hero h2 em{font-style:normal;color:var(--ouro)}
   .hero p{max-width:620px;margin:0 auto;color:#cfe3d6;font-size:16px}
@@ -58,7 +57,7 @@
   .pilula span{color:#bcd6c6}
   /* ---------- layout ---------- */
   main{max-width:980px;margin:0 auto;padding:0 16px 56px}
-  .solto{max-width:720px;margin:-64px auto 0;position:relative;z-index:2}
+  .solto{max-width:720px;margin:-46px auto 0;position:relative;z-index:2}
   .cartao{background:var(--cartao);border:1px solid var(--linha);border-radius:22px;box-shadow:var(--sombra);padding:24px}
   .cartao.destaque{box-shadow:var(--sombra-f)}
   @media(min-width:640px){.cartao{padding:32px}}
@@ -142,7 +141,7 @@
 <!-- ===== ABERTURA ===== -->
 <div id="tela-inicio">
   <section class="hero">
-    <div class="medalha"><img src="logo-arco.png" alt="IPI O Caminho"></div>
+    <span class="chamada">O Caminho do Servo</span>
     <h2>Descubra os dons<br>que Deus <em>já colocou</em> em você</h2>
     <p>Questionário de Christian A. Schwarz, como está na apostila <b>O Caminho do Servo</b>. Ao final você recebe seus <b>Dons Manifestos</b> — o que já dá fruto hoje — e seus <b>Dons Latentes</b>, o potencial a desenvolver.</p>
     <div class="pilulas">
@@ -150,6 +149,9 @@
       <span class="pilula"><b>30</b><span>dons bíblicos</span></span>
       <span class="pilula"><b>~15</b><span>minutos</span></span>
     </div>
+    <svg class="onda" viewBox="0 0 1440 74" preserveAspectRatio="none" aria-hidden="true">
+      <path d="M0,74 L0,34 C180,6 360,0 720,26 C1080,52 1260,56 1440,30 L1440,74 Z"></path>
+    </svg>
   </section>
 
   <main>
